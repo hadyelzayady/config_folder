@@ -1,0 +1,53 @@
+XF86Audio{Prev,Play,Next,LowerVolume,RaiseVolume}
+	playerctl --all-players {previous,play-pause,next}
+
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+	amixer set 'Master'  {1%-,1%+,toggle}
+
+XF86MonBrightness{Down,Up}
+	light -{U,A} 4%
+
+super +{ F5,F6}
+	light -{U,A} 2%
+
+super + {n}
+	rofi -show combi -modi combi,window,run,keys
+
+super + {w,o,e,u}
+	{$BROWSER,$FILE,$TERMINAL -x ranger,$TERMINAL -x calcurse}
+
+super + shift + BackSpace
+	prompt "Reboot computer?" "shutdown -r now"
+
+super + shift + q
+	prompt "Exit DWM ?" "pkill dwm"
+
+super + shift + x
+	prompt "Shutdown computer?" "shutdown -h now"
+
+super + shift + z
+	suspend_menu
+
+super + Print
+	dmenurecord
+
+super + Delete
+	dmenurecord kill
+
+super + shift + {m,s}
+	{dmenumount,flameshot gui}
+
+super + F8
+	networkmanager_dmenu
+
+super + F7
+	displayselect
+
+//alt + grave
+//	copyq toggle
+
+super + shift + l
+	lockscreen
+
+super + {bracketleft,bracketright}
+	transset {--dec,--inc} .08 -a
