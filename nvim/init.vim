@@ -34,21 +34,20 @@ set list
 "enable rainbow plugin
 let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 
-" hilight current line
+"hilight current cursor line
 set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 highlight CursorLine guibg=#303000 ctermbg=234
-
 " end hilight cursor line
+
 " +++++++++++++++ale linter config +++++++++++++++++++++++=
 " run only specified linters
 let g:ale_linters_explicit = 1
 " Equivalent to the above.
 let g:ale_linters = {
             \'python': ['autopep8'],
-            \'go':['gopls'],
             \}
 
 " Set this variable to 1 to fix files when you save them.
@@ -80,7 +79,7 @@ let g:lightline = {
       \ },
       \ }
 " *********************************** Plugins ******************************************
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 " auto close pairs (, {,",',...
 Plug 'jiangmiao/auto-pairs'
 
@@ -135,6 +134,8 @@ map <C-l> <C-w>l
 " Save file as sudo on files that require root permission
 cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 
+" Paste in insert mode
+"<C-r> 0
 " ++++++++++++FZF keymaps +++++++++++
 nnoremap <silent> <leader>f :FZF<CR>
 "Find in home
