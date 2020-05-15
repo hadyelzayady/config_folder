@@ -32,12 +32,9 @@ let g:startify_session_persistence = 1
 "     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
+            \ { 's': '~/.config/nvim/plug-config/start-screen.vim' },
             \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
+            \ { 'r': '~/.bashrc' },
             \ ]
 
 let g:startify_enable_special = 0

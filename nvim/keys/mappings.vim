@@ -11,9 +11,11 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " I hate escape more than anything else
-inoremap jk <Esc>
-inoremap kj <Esc>
+inoremap jk <ESC>
+inoremap kj <ESC>
 
+" toggle comment using ctrl+/
+map <C-_> <plug>NERDCommenterToggle
 " Easy CAPS
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>

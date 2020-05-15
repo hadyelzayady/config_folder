@@ -34,6 +34,7 @@ let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
 " let g:which_key_map['r'] = [ ':RnvimrToggle'              , 'ranger' ]
 let g:which_key_map['f'] = [':Files'                        , 'search files']
+let g:which_key_map['d'] = [':bd'                        , 'delete buffer']
 let g:which_key_map['S'] = [ ':SSave'                     , 'save session' ]
 let g:which_key_map['T'] = [ ':Rg'                        , 'search text in directory files' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
@@ -138,7 +139,7 @@ let g:which_key_map.l = {
       \ 'q' : ['<Plug>(coc-fix-current)'             , 'quickfix'],
       \ 'r' : ['<Plug>(coc-rename)'                  , 'rename'],
       \ 'R' : ['<Plug>(coc-references)'              , 'references'],
-      \ 's' : [':CocList -I symbols'                 , 'references'],
+      \ 's' : [':CocList -I symbols'                 , 'symboles'],
       \ 't' : ['<Plug>(coc-type-definition)'         , 'type definition'],
       \ 'u' : [':CocListResume'                      , 'resume list'],
       \ 'U' : [':CocUpdate'                          , 'update CoC'],

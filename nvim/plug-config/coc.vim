@@ -1,25 +1,15 @@
-  " let g:coc_global_extensions = [
-  "   \ 'coc-snippets',
-  "   \ 'coc-actions',
-  "   \ 'coc-emmet',
-  "   \ 'coc-pairs',
-  "   \ 'coc-tsserver',
-  "   \ 'coc-floaterm',
-  "   \ 'coc-html',
-  "   \ 'coc-css',
-  "   \ 'coc-cssmodules',
-  "   \ 'coc-yaml',
-  "   \ 'coc-python',
-  "   \ 'coc-explorer',
-  "   \ 'coc-svg',
-  "   \ 'coc-prettier',
-  "   \ 'coc-vimlsp',
-  "   \ 'coc-flutter',
-  "   \ 'coc-xml',
-  "   \ 'coc-yank',
-  "   \ 'coc-json',
-  "   \ 'coc-vimtex',
-  "   \ ]
+  let g:coc_global_extensions = [
+    \ 'coc-snippets',
+    \ 'coc-emmet',
+    \ 'coc-tsserver',
+    \ 'coc-html',
+    \ 'coc-css',
+    \ 'coc-cssmodules',
+    \ 'coc-python',
+    \ 'coc-explorer',
+    \ 'coc-prettier',
+    \ 'coc-json',
+    \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
@@ -132,24 +122,24 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " Explorer
-let g:coc_explorer_global_presets = {
-\   'floating': {
-\      'position': 'floating',
-\   },
-\   'floatingLeftside': {
-\      'position': 'floating',
-\      'floating-position': 'left-center',
-\      'floating-width': 30,
-\   },
-\   'floatingRightside': {
-\      'position': 'floating',
-\      'floating-position': 'right-center',
-\      'floating-width': 30,
-\   },
-\   'simplify': {
-\     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
-\   }
-\ }
+" let g:coc_explorer_global_presets = {
+" \   'floating': {
+" \      'position': 'floating',
+" \   },
+" \   'floatingLeftside': {
+" \      'position': 'floating',
+" \      'floating-position': 'left-center',
+" \      'floating-width': 30,
+" \   },
+" \   'floatingRightside': {
+" \      'position': 'floating',
+" \      'floating-position': 'right-center',
+" \      'floating-width': 30,
+" \   },
+" \   'simplify': {
+" \     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+" \   }
+" \ }
 "nmap <silent> <space>e :CocCommand explorer<CR>
 " nnoremap <silent> <leader>e :CocCommand explorer<CR>
 " nmap <space>f :CocCommand explorer --preset floatingRightside<CR>

@@ -7,16 +7,16 @@
     "method": "m",
     "function": "f"
   },
-
+  "suggest.enablePreview": true,
   // diagnostics
   "diagnostic.errorSign": "✗",
   "diagnostic.warningSign": "⚠",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  // "diagnostic.displayByAle": true,
+  "diagnostic.displayByAle": true,
 
   // codelens TODO what does this get me?
-  // "codeLens.enable": true,
+  "codeLens.enable": true,
 
   // list
   "list.indicator": ">",
@@ -31,7 +31,8 @@
     "html",
     "yaml",
     "json",
-    "python"
+    "python",
+    "json"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -44,7 +45,7 @@
 
   // explorer
   "explorer.width": 30,
-  "explorer.icon.enableNerdfont": true,
+  "explorer.icon.enableNerdfont": false,
   "explorer.previewAction.onHover": false,
   "explorer.icon.enableVimDevicons": false,
   "explorer.keyMappings": {
@@ -58,6 +59,22 @@
       "args": ["start"],
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
+    },
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json",
+        ".vim/",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
     }
   }
 
