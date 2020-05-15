@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/geeker/go/src/hello_world'
-let g:netrw_dirhist_2='/home/geeker/go/pkg/mod'
-let g:netrw_dirhist_1='/home/geeker/go/pkg'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/geeker/.config/coc/extensions'
+let g:netrw_dirhist_7='/home/geeker/.config/coc'
+let g:netrw_dirhist_6='/home/geeker/.config/.git'
+let g:netrw_dirhist_5='/home/geeker/.config/nvim'
+let g:netrw_dirhist_4='/home/geeker/.config/nvim/keys'
+let g:netrw_dirhist_3='/home/geeker/.config/nvim/general'
+let g:netrw_dirhist_2='/home/geeker/.config/nvim'
+let g:netrw_dirhist_1='/home/geeker/.config/nvim/keys'
+let g:netrw_dirhist_0='/home/geeker/.config/nvim'
+let g:netrw_dirhist_9='/home/geeker/.config/nvim/general'
