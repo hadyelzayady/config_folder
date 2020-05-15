@@ -17,7 +17,7 @@ let g:airline#extensions#tabline#fnamecollapse = 1
 let g:airline#extensions#tabline#show_tab_type = 0
 let g:airline#extensions#tabline#buffers_label = ''
 let g:airline#extensions#tabline#tabs_label = ''
-
+let g:airline#extensions#kite#statusline = 1
 " Just show the file name
 let g:airline#extensions#tabline#fnamemod = ':t'
 
@@ -43,4 +43,5 @@ set noshowmode
 " let g:airline_section_c = ''
 let g:airline_section_a = "Geeker"
 let g:airline_section_y = ''
+let g:airline_section_z = '%{kite#statusline()}'
 let g:webdevicons_enable_airline_tabline = 1

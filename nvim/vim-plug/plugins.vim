@@ -48,6 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'tomasiser/vim-code-dark'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " lint and fix
+  Plug 'dense-analysis/ale'
   " Status Line
   Plug 'vim-airline/vim-airline'
   " Plug 'vim-airline/vim-airline-themes'
@@ -71,9 +73,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " See what keys do like in emacs
   Plug 'liuchengxu/vim-which-key'
   " Zen mode
-  " Plug 'junegunn/goyo.vim'
+  Plug 'junegunn/goyo.vim'
   " Making stuff
-  " Plug 'neomake/neomake'
+  Plug 'neomake/neomake'
   " Snippets TODO fix TAB hijack
   " Plug 'SirVer/ultisnips'
   " Better Comments
