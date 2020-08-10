@@ -13,9 +13,14 @@ super +{ F5,F6}
 super + {n}
 	rofi -show combi -modi combi,window,run,keys
 
+super + p
+	dmenu_run -H $HOME/.dmenu_history -m dmenumon
+
 super + {w,o,e,u}
 	{$BROWSER,$FILE,$TERMINAL -x ranger,$TERMINAL -x calcurse}
 
+super + shift + Return
+	{ $TERMINAL }
 super + shift + BackSpace
 	prompt "Reboot computer?" "shutdown -r now"
 

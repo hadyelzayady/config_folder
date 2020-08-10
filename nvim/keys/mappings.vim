@@ -42,10 +42,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Use alt + hjkl to resize windows
-nnoremap <silent> <M-j>    :resize -2<CR>
-nnoremap <silent> <M-k>    :resize +2<CR>
-nnoremap <silent> <M-h>    :vertical resize -2<CR>
-nnoremap <silent> <M-l>    :vertical resize +2<CR>
+nnoremap <silent> <M-C-j>    :resize -2<CR>
+nnoremap <silent> <M-C-k>    :resize +2<CR>
+nnoremap <silent> <M-C-h>    :vertical resize -2<CR>
+nnoremap <silent> <M-C-l>    :vertical resize +2<CR>
 
 "enable dot command (repeat last action) to be executed in visual mode
 vnoremap . :norm.<CR>
