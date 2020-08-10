@@ -5,7 +5,7 @@ XF86Audio{LowerVolume,RaiseVolume,Mute}
 	amixer set 'Master'  {1%-,1%+,toggle}
 
 XF86MonBrightness{Down,Up}
-	light -{U,A} 4%
+	xbacklight -{dec,inc} 4
 
 super +{ F5,F6}
 	light -{U,A} 2%
