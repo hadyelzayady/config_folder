@@ -44,4 +44,4 @@ set noshowmode
 let g:airline_section_a = "Geeker"
 let g:airline_section_y = ''
 let g:airline_section_z = '%{kite#statusline()}'
-let g:webdevicons_enable_airline_tabline = 1
+let g:webdevitons_enable_airline_tabline = 1

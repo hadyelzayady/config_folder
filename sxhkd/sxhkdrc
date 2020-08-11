@@ -1,14 +1,15 @@
-XF86Audio{Prev,Play,Next,LowerVolume,RaiseVolume}
-	playerctl --all-players {previous,play-pause,next}
+XF86Audio{Prev,Play,Stop,Next,LowerVolume,RaiseVolume}
+	playerctl --all-players {previous,play-pause,stop,next}
 
-XF86Audio{LowerVolume,RaiseVolume,Mute}
-	amixer set 'Master'  {1%-,1%+,toggle}
+
+XF86AudioMute
+	pamixer  -t; pkill -RTMIN+10 blocks
+XF86Audio{Raise,Lower}Volume
+	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks
 
 XF86MonBrightness{Down,Up}
 	xbacklight -{dec,inc} 4
 
-super +{ F5,F6}
-	light -{U,A} 2%
 
 super + {n}
 	rofi -show combi -modi combi,window,run,keys
@@ -17,7 +18,7 @@ super + p
 	dmenu_run -H $HOME/.dmenu_history -m dmenumon
 
 super + {w,o,e,u}
-	{$BROWSER,$FILE,$TERMINAL -x ranger,$TERMINAL -x calcurse}
+	{$BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse}
 
 super + shift + Return
 	{ $TERMINAL }
