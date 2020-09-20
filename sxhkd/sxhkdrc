@@ -10,18 +10,21 @@ XF86Audio{Raise,Lower}Volume
 XF86MonBrightness{Down,Up}
 	xbacklight -{dec,inc} 4
 
-
 super + {n}
 	rofi -show combi -modi combi,window,run,keys
 
 super + p
 	dmenu_run -H $HOME/.dmenu_history -m dmenumon
 
-super + {w,o,e,u}
-	{$BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse}
+super + {w,o,e,u,Escape}
+	{ $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop}
 
 super + shift + Return
 	{ $TERMINAL }
+
+super + s
+	{ anamnesis -b }
+
 super + shift + BackSpace
 	prompt "Reboot computer?" "shutdown -r now"
 
@@ -49,8 +52,9 @@ super + F8
 super + F7
 	displayselect
 
-//alt + grave
-//	copyq toggle
+alt + grave
+	copyq toggle
+
 
 super + shift + l
 	lockscreen

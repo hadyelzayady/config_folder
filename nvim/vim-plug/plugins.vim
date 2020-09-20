@@ -83,6 +83,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Echo doc
   " Plug 'Shougo/echodoc.vim'
 
+  "fern explorer with nerd icons plugins
+  Plug 'lambdalisue/fern.vim'
+  Plug 'lambdalisue/nerdfont.vim'
+  Plug 'lambdalisue/fern-renderer-nerdfont.vim'
 
 call plug#end()
 

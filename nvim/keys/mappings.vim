@@ -41,7 +41,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" Use alt + hjkl to resize windows
+" Use alt + ctrl + hjkl to resize windows
 nnoremap <silent> <M-C-j>    :resize -2<CR>
 nnoremap <silent> <M-C-k>    :resize +2<CR>
 nnoremap <silent> <M-C-h>    :vertical resize -2<CR>
@@ -49,3 +49,6 @@ nnoremap <silent> <M-C-l>    :vertical resize +2<CR>
 
 "enable dot command (repeat last action) to be executed in visual mode
 vnoremap . :norm.<CR>
+
+"search for current selected text by pressing //
+vnoremap // y / C-r0

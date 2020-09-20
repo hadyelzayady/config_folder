@@ -2,7 +2,8 @@ set iskeyword+=-                      	" treat dash separated words as a word te
 set formatoptions-=cro                  " Stop newline continution of comments
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
-" set nowrap                              " Display long lines as just one line
+set wrap                                " wrap lines
+set linebreak                           " don't break word on wrap, start new line with the word
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
@@ -32,7 +33,7 @@ set nowritebackup                       " This is recommended by coc
 set shortmess+=c                        " Don't pass messages to |ins-completion-menu|.
 set signcolumn=yes                      " Always show the signcolumn, otherwise it would shift the text each time
 set updatetime=300                      " Faster completion
-set timeoutlen=100                      " By default timeoutlen is 1000 ms
+set timeoutlen=1000                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set guifont=Hack\ Nerd\ Font
@@ -49,8 +50,12 @@ autocmd FileType * set formatoptions-=cro
 " Update binds when sxhkdrc is updated.
 autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
 
+" Have dwmblocks automatically recompile and run when you edit this file in
+" vim with the following line in your vimrc/init.vim:
+autocmd BufWritePost ~/dwmblocks/config.h !cd ~/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
+
 " Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
 
 " Save file as sudo on files that require root permission
-cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
+cmap w!! w !sudo tee > /dev/null %
