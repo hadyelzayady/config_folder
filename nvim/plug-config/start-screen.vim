@@ -33,8 +33,10 @@ let g:startify_session_persistence = 1
 
 let g:startify_bookmarks = [
             \ { 's': '~/.config/nvim/plug-config/start-screen.vim' },
+            \ { 'x': '~/.config/sxhkd/sxhkdrc' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'r': '~/.bashrc' },
+            \ { 'z': '~/.config/zsh/.zshrc' },
             \ ]
 
 let g:startify_enable_special = 0

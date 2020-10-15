@@ -13,7 +13,8 @@ alias \
 	yt="youtube-dl --add-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner" \
-	connect="nmtui"
+	connect="nmtui" \
+	kali="docker run -t -v ~/docker-images-volumes/kali:/root/host -i kalilinux/kali-rolling /bin/bash"
 
 # Colorize commands when possible.
 alias \
