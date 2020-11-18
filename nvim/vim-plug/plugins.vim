@@ -89,6 +89,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'lambdalisue/nerdfont.vim'
   Plug 'lambdalisue/fern-renderer-nerdfont.vim'
 
+  " set fern as default explorer instead of netrw
+  Plug 'lambdalisue/fern-hijack.vim'
+
 call plug#end()
 
 " Automatically install missing plugins on startup

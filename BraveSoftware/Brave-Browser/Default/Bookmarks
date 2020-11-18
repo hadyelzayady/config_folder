@@ -1,0 +1,1021 @@
+{
+   "checksum": "a223552fde81982d70ccf173292cd2c8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13248183351000000",
+            "guid": "740cb33f-1e60-4f95-af9a-1a169ad67d4e",
+            "id": "5",
+            "name": "danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)",
+            "type": "url",
+            "url": "https://github.com/danistefanovic/build-your-own-x"
+         }, {
+            "date_added": "13243789212000000",
+            "guid": "2068b2f6-4a0d-48ec-ad3d-8adb71b26368",
+            "id": "6",
+            "name": "Nightmare - Nightmare",
+            "type": "url",
+            "url": "https://guyinatuxedo.github.io/index.html"
+         }, {
+            "date_added": "13243358743000000",
+            "guid": "0569f0e1-92ad-4602-b267-69311d95376f",
+            "id": "7",
+            "name": "Concurrent Servers: Part 2 - Threads - Eli Bendersky's website",
+            "type": "url",
+            "url": "https://eli.thegreenplace.net/2017/concurrent-servers-part-2-threads/"
+         }, {
+            "date_added": "13243257538000000",
+            "guid": "022d7699-6ba5-4b15-9b2d-c96b96951baf",
+            "id": "8",
+            "name": "Electronic library. Download books free. Finding books",
+            "type": "url",
+            "url": "https://b-ok.africa/"
+         }, {
+            "date_added": "13243190411000000",
+            "guid": "86a9b77b-0f94-45ce-b119-c373e9d29b0e",
+            "id": "9",
+            "name": "Computer Systems Security | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+            "type": "url",
+            "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/index.htm"
+         }, {
+            "date_added": "13240924963000000",
+            "guid": "5e573fc1-21b2-472c-9abe-7250c96f5c08",
+            "id": "10",
+            "name": "CTF Challenge - Web App Security Challenges",
+            "type": "url",
+            "url": "https://ctfchallenge.co.uk/"
+         }, {
+            "date_added": "13240930997000000",
+            "guid": "173761f7-f267-40b4-be59-9cb217f7e651",
+            "id": "11",
+            "name": ".NET Tutorial | Hello World Microservice",
+            "type": "url",
+            "url": "https://dotnet.microsoft.com/learn/aspnet/microservice-tutorial/install"
+         }, {
+            "date_added": "13227951013000000",
+            "guid": "100b7077-4a0d-4425-9996-c7fcd212d4ea",
+            "id": "12",
+            "name": "Malware-Traffic-Analysis.net",
+            "type": "url",
+            "url": "http://www.malware-traffic-analysis.net/index.html"
+         }, {
+            "date_added": "13214078417000000",
+            "guid": "9a3d1776-d0eb-4ee6-8a7e-15c55b2237d9",
+            "id": "13",
+            "name": "Avelabs",
+            "type": "url",
+            "url": "http://www.avelabs.com/careers/"
+         }, {
+            "date_added": "13214078418000000",
+            "guid": "87fc3917-ba10-4bab-b282-19ef19d0c6c8",
+            "id": "14",
+            "name": "Paged Out!",
+            "type": "url",
+            "url": "https://pagedout.institute/?page=issues.php"
+         }, {
+            "date_added": "13214078431000000",
+            "guid": "03f72a75-f4b0-4938-939d-0426547044a8",
+            "id": "15",
+            "name": "USACO Training Program Gateway",
+            "type": "url",
+            "url": "http://train.usaco.org/usacogate"
+         }, {
+            "date_added": "13214078431000000",
+            "guid": "b100be5e-31c7-4624-a142-47ed65667cac",
+            "id": "16",
+            "name": "CNIT 127: Exploit Development -- Sam Bowne",
+            "type": "url",
+            "url": "https://samsclass.info/"
+         }, {
+            "date_added": "13214078432000000",
+            "guid": "2f6c6ba1-a54f-419c-b292-ba9bf967aa6f",
+            "id": "17",
+            "name": "Azeria Labs",
+            "type": "url",
+            "url": "https://azeria-labs.com/"
+         }, {
+            "date_added": "13214078432000000",
+            "guid": "5d557dc3-7d1f-40fd-8809-633acad31fc8",
+            "id": "18",
+            "name": "Researcher Resources - How to become a Bug Bounty Hunter - Security Research - Bugcrowd Forum",
+            "type": "url",
+            "url": "https://forum.bugcrowd.com/t/researcher-resources-how-to-become-a-bug-bounty-hunter/1102"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "e4f932b7-f571-433e-bbea-f8a7e84446ad",
+            "id": "19",
+            "name": "My favorite command-line utilities – Hacker Noon",
+            "type": "url",
+            "url": "https://hackernoon.com/macbook-my-command-line-utilities-f8a121c3b019"
+         }, {
+            "date_added": "13214078420000000",
+            "guid": "841b578e-36ba-4c6a-b108-373742d1ce71",
+            "id": "20",
+            "name": "C++ developer job opportunity with great benefits :: think-cell",
+            "type": "url",
+            "url": "https://www.think-cell.com/en/career/jobs/development.shtml?utm_source=reddit&utm_campaign=redditPilot"
+         }, {
+            "date_added": "13214078421000000",
+            "guid": "9fbff498-1ccf-4191-aafd-77eed27f6525",
+            "id": "21",
+            "name": "the-art-of-command-line/README.md at master · jlevy/the-art-of-command-line · GitHub",
+            "type": "url",
+            "url": "https://github.com/jlevy/the-art-of-command-line/blob/master/README.md"
+         }, {
+            "date_added": "13214078424000000",
+            "guid": "7f0d1c99-769e-4353-9309-1455dca24b4b",
+            "id": "22",
+            "name": "20 Linux Command Tips and Tricks That Will Save You A Lot of Time | It's FOSS",
+            "type": "url",
+            "url": "https://itsfoss.com/linux-command-tricks/"
+         }, {
+            "date_added": "13214078425000000",
+            "guid": "5e351b53-e353-47ff-aec9-644093128bf0",
+            "id": "23",
+            "name": "Find the best online programming courses and tutorials",
+            "type": "url",
+            "url": "http://letsfindcourse.com/"
+         }, {
+            "date_added": "13214078425000000",
+            "guid": "f30deccb-c923-4b80-b096-cf397f6a5636",
+            "id": "24",
+            "name": "Electronic library. Download books free. Finding books",
+            "type": "url",
+            "url": "http://b-ok.cc/"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "65f289a9-d538-475a-883e-87ecdbd7cd53",
+            "id": "25",
+            "name": "Dashboard | Pramp",
+            "type": "url",
+            "url": "https://www.pramp.com/dashboard#/"
+         }, {
+            "date_added": "13214078420000000",
+            "guid": "82957be6-e59e-4f65-9156-187c011fb5ef",
+            "id": "26",
+            "name": "Swagger UI",
+            "type": "url",
+            "url": "https://seventail.demoday.us/swagger/index.html"
+         }, {
+            "date_added": "13214078421000000",
+            "guid": "cdda9b22-98ce-432d-b436-95086cfdb4ab",
+            "id": "27",
+            "name": "FogBugz: Filter: First 50 open cases assigned to Hady Gamal",
+            "type": "url",
+            "url": "https://tracker.silverkeytech.net/default.asp?"
+         }, {
+            "date_added": "13217417270000000",
+            "guid": "5c5aa5c3-03d7-43a1-9efb-198691364dc2",
+            "id": "28",
+            "name": "Distance Calculator | GeoDataSource",
+            "type": "url",
+            "url": "https://www.geodatasource.com/distance-calculator"
+         }, {
+            "date_added": "13217618093000000",
+            "guid": "32ac1064-f709-406c-b014-cb4ed0e65ef5",
+            "id": "29",
+            "name": "Transaction Isolation Levels in PostgreSQL - Shiroyasha",
+            "type": "url",
+            "url": "http://shiroyasha.io/transaction-isolation-levels-in-postgresql.html"
+         }, {
+            "date_added": "13214078418000000",
+            "guid": "151dacd0-e6f0-409d-88a3-ac5ce83f4270",
+            "id": "30",
+            "name": "GeekesForGeeks",
+            "type": "url",
+            "url": "http://www.geeksforgeeks.org/"
+         }, {
+            "date_added": "13214078422000000",
+            "guid": "9217282b-3d39-4591-9a14-fb7a5b2ed51e",
+            "id": "31",
+            "name": "LeetCode",
+            "type": "url",
+            "url": "https://leetcode.com/"
+         }, {
+            "date_added": "13214078423000000",
+            "guid": "16b672ee-5e46-4d36-9f41-2b4c05877ff8",
+            "id": "32",
+            "name": "HackerEarth",
+            "type": "url",
+            "url": "https://www.hackerearth.com/"
+         }, {
+            "date_added": "13214078418000000",
+            "guid": "900b6e29-3ea6-4343-bfd3-3a3378da995f",
+            "id": "33",
+            "name": "OverTheWire: Natas",
+            "type": "url",
+            "url": "http://overthewire.org/wargames"
+         }, {
+            "date_added": "13214078420000000",
+            "guid": "e8513311-aaca-4010-96cb-571a1200b977",
+            "id": "34",
+            "name": "Getting Started | Hacker101",
+            "type": "url",
+            "url": "https://www.hacker101.com/"
+         }, {
+            "date_added": "13214078421000000",
+            "guid": "3b4a667c-61bb-4d6f-8098-a3362f2f086d",
+            "id": "35",
+            "name": "rby90/Project-Based-Tutorials-in-C: A curated list of project-based tutorials in C",
+            "type": "url",
+            "url": "https://github.com/rby90/Project-Based-Tutorials-in-C#operating-systems"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "4f902623-464d-49ad-8fed-b2657f1424ce",
+            "id": "36",
+            "name": "Hacking Challenges | ThisIsLegal",
+            "type": "url",
+            "url": "https://thisislegal.com/challenge"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "fe985f31-4686-492b-9a06-2fb79a2a3638",
+            "id": "37",
+            "name": "Tutorial 6",
+            "type": "url",
+            "url": "https://linuxzoo.net/"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "72b677d5-8393-447c-9e7a-a7a1298c9d29",
+            "id": "38",
+            "name": "FuzzySecurity | Windows Privilege Escalation Fundamentals",
+            "type": "url",
+            "url": "https://www.fuzzysecurity.com/tutorials/16.html"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "bbda857f-4be7-4359-89a6-00ce588c71e7",
+            "id": "39",
+            "name": "Vulnerable By Design ~ VulnHub",
+            "type": "url",
+            "url": "https://www.vulnhub.com/"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "ef33dc4c-de8f-4ca2-b8ad-82d4685697c7",
+            "id": "40",
+            "name": "An Introduction to Windows Kernel Debugging | Endgame",
+            "type": "url",
+            "url": "https://www.endgame.com/blog/technical-blog/introduction-windows-kernel-debugging"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "50c679a7-4d33-4104-b3bb-391fb3ee6c12",
+            "id": "41",
+            "name": "GCC and Make - A Tutorial on how to compile, link and build C/C++ applications",
+            "type": "url",
+            "url": "https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "4105029b-bb73-4d62-8be9-74cfb55d3b24",
+            "id": "42",
+            "name": "Hack The Box :: Penetration Testing Labs",
+            "type": "url",
+            "url": "https://www.hackthebox.eu/"
+         }, {
+            "date_added": "13214078429000000",
+            "guid": "f75a522c-d236-48b2-8122-63dc8883a76e",
+            "id": "43",
+            "name": "P&G Careers",
+            "type": "url",
+            "url": "https://pg.taleo.net/careersection/10000/emaillist.ftl"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "cc1f1410-d8be-4628-8f79-bc26b0f73d56",
+            "id": "44",
+            "name": "Tutorials - OSDev Wiki",
+            "type": "url",
+            "url": "https://wiki.osdev.org/Tutorials"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "f42be4b2-4721-434c-a73b-2c80aeed2530",
+            "id": "45",
+            "name": "Eudyptula Challenge: Task 1 – TekSourcery",
+            "type": "url",
+            "url": "http://teksourcery.com/eudyptula-challenge-task-1/"
+         }, {
+            "date_added": "13214078422000000",
+            "guid": "4ea2c43d-bcd6-4be7-962a-570630f9a7b2",
+            "id": "46",
+            "name": "The Linux Kernel Module Programming Guide",
+            "type": "url",
+            "url": "http://www.tldp.org/LDP/lkmpg/2.6/html/lkmpg.html#AEN121"
+         }, {
+            "date_added": "13214078424000000",
+            "guid": "eebc8e68-dc1d-422b-996e-cda73e96d630",
+            "id": "47",
+            "name": "The Eudyptula Challenge",
+            "type": "url",
+            "url": "http://eudyptula-challenge.org/"
+         }, {
+            "date_added": "13214078420000000",
+            "guid": "3f06091c-b648-4a26-9624-3d0d39127fef",
+            "id": "48",
+            "name": "pwnable.tw",
+            "type": "url",
+            "url": "https://pwnable.tw/challenge/"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "f22e225b-bb05-403b-b41c-98b4b9d62380",
+            "id": "49",
+            "name": "Embedded Security CTF",
+            "type": "url",
+            "url": "https://microcorruption.com/"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "6b94e773-ec7e-4aa3-bd68-c265fc01e31b",
+            "id": "50",
+            "name": "Riscure RHme2: FridgeJIT – Reverse Engineering Challenge – Capture the Swag",
+            "type": "url",
+            "url": "https://ctf.rip/rhme2-fridgejit/"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "2fa3aa21-36e8-4ff5-9954-94da40ad7e85",
+            "id": "51",
+            "name": "pwnable.kr/#",
+            "type": "url",
+            "url": "http://pwnable.kr/#"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "0f5736d8-2f78-4b9a-ad06-899d5cf78ea2",
+            "id": "52",
+            "name": "Valhalla Challenges Overview",
+            "type": "url",
+            "url": "http://halls-of-valhalla.org/beta/challenges"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "37fc9416-777f-4633-84a2-33d4573b6f89",
+            "id": "53",
+            "name": "list of practice sites",
+            "type": "url",
+            "url": "http://captf.com/practice-ctf/"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "981a11a3-4454-4d4b-b714-b53d9d8e3d62",
+            "id": "54",
+            "name": "CTFtime.org / All about CTF (Capture The Flag)",
+            "type": "url",
+            "url": "https://ctftime.org/"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "6a3a4475-58aa-4d86-ba43-2f3744568116",
+            "id": "55",
+            "name": "https://game.pwn2win.party/2017/#/",
+            "type": "url",
+            "url": "https://game.pwn2win.party/2017/#/"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "3ff898c2-7604-4f02-9373-3dc0eb2ef3c2",
+            "id": "56",
+            "name": "The Cryptopals Crypto Challenges",
+            "type": "url",
+            "url": "https://cryptopals.com/"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "6f7592bc-e8ab-47c6-94ec-81b1ec13af7a",
+            "id": "57",
+            "name": "Welcome [Root Me : Hacking and Information Security learning platform]",
+            "type": "url",
+            "url": "https://www.root-me.org/?lang=en"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "0566c7ef-d67b-4553-9d68-df990e940f3a",
+            "id": "58",
+            "name": "Compiler Explorer",
+            "type": "url",
+            "url": "https://gcc.godbolt.org/#"
+         }, {
+            "date_added": "13214078420000000",
+            "guid": "91727f02-c4ac-45ae-9572-274e96609cf7",
+            "id": "59",
+            "name": "Hack My World - projects",
+            "type": "url",
+            "url": "https://hackmy.world/projects/tutorial.php"
+         }, {
+            "date_added": "13214078423000000",
+            "guid": "1aba071e-07a5-4b7e-938a-1908b8e4fee8",
+            "id": "60",
+            "name": "Scaling up Binary Exploitation Education | Ret2 Systems Blog",
+            "type": "url",
+            "url": "https://blog.ret2.io/2018/09/11/scalable-security-education/"
+         }, {
+            "date_added": "13214078419000000",
+            "guid": "c39ba6fe-7290-4a91-8f7d-c46322d91d84",
+            "id": "61",
+            "name": "HackThis!! - The Hackers Playground",
+            "type": "url",
+            "url": "https://defendtheweb.net/playground/"
+         }, {
+            "date_added": "13214078422000000",
+            "guid": "1298ed91-5291-42f0-8b36-3899d706b112",
+            "id": "62",
+            "name": "Nakerah Network",
+            "type": "url",
+            "url": "https://www.nakerah.net/index.php"
+         }, {
+            "date_added": "13214078425000000",
+            "guid": "81ad09ea-095b-4b42-8f84-14c1b6752e04",
+            "id": "63",
+            "name": "OpenSecurityTraining",
+            "type": "url",
+            "url": "http://opensecuritytraining.info/"
+         }, {
+            "date_added": "13214078426000000",
+            "guid": "2e105da3-4b80-46b4-bd1f-ba661bcc1a7d",
+            "id": "64",
+            "name": "First exploit in Windows Kernel (HEVD) - Blah Cats",
+            "type": "url",
+            "url": "http://blahcat.github.io/2017/08/18/first-exploit-in-windows-kernel-hevd/"
+         }, {
+            "date_added": "13214078427000000",
+            "guid": "a6f55799-1539-4f05-b4d7-93f8f0aea0a1",
+            "id": "65",
+            "name": "[PATCHME] Look Deeper Inside - Reverse Engineering / Challenges - 0x00sec - The Home of the Hacker",
+            "type": "url",
+            "url": "https://0x00sec.org/t/patchme-look-deeper-inside/4113"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "aa6e9e2a-0a74-4d78-948b-66d9d41d70a0",
+            "id": "66",
+            "name": "Practical Reverse Engineering Part 2 - Scouting the Firmware · Hack The World",
+            "type": "url",
+            "url": "http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/"
+         }, {
+            "date_added": "13214078428000000",
+            "guid": "ae1036cb-98d4-48c9-9961-607b9d2ba5a4",
+            "id": "67",
+            "name": "ROP Emporium",
+            "type": "url",
+            "url": "https://ropemporium.com/"
+         }, {
+            "date_added": "13222456196000000",
+            "guid": "e9023ab3-7302-4919-a4e9-422075fb6c00",
+            "id": "68",
+            "name": "Function mappings - LLBLGen Pro Runtime Framework v5.4 Documentation",
+            "type": "url",
+            "url": "https://www.llblgen.com/documentation/5.4/LLBLGen%20Pro%20RTF/Using%20the%20generated%20code/QuerySpec/gencode_queryspec_functionmappings.htm"
+         }, {
+            "date_added": "13222460703000000",
+            "guid": "00eb09f8-6198-47ae-a6cf-8b5ff304076b",
+            "id": "69",
+            "name": "Ghost in the Shellcode 2015",
+            "type": "url",
+            "url": "http://ghostintheshellcode.com/2015-final/"
+         }, {
+            "date_added": "13222598245000000",
+            "guid": "1826cbe3-4ab0-4ef8-8cff-812ed4388feb",
+            "id": "70",
+            "name": "Linux Tips 1 - 2018",
+            "type": "url",
+            "url": "https://www.bogotobogo.com/Linux/linux_tips1.php"
+         }, {
+            "date_added": "13222644721000000",
+            "guid": "fda6b8ad-fb36-4700-a6b2-c2c6e09cee0c",
+            "id": "71",
+            "name": "Epic Math",
+            "type": "url",
+            "url": "http://www.epicmath.com/#/home"
+         }, {
+            "date_added": "13223123518000000",
+            "guid": "b8ce6a3f-b328-4a6a-81ca-c22c8ff2c965",
+            "id": "72",
+            "name": "Account | Partner | TakeLessons",
+            "type": "url",
+            "url": "https://takelessons.com/provider/settings"
+         }, {
+            "date_added": "13223130645000000",
+            "guid": "89bf784a-3c04-4e2e-937b-31e0f2317342",
+            "id": "73",
+            "name": "PeoplePerHour.com - Hire Freelancers Online & Find Freelance Work",
+            "type": "url",
+            "url": "https://www.peopleperhour.com/dashboard/seller"
+         }, {
+            "date_added": "13223131129000000",
+            "guid": "9466732e-e1cf-4282-8c1f-c69b9b625b57",
+            "id": "74",
+            "name": "Codementor | Get live 1:1 coding help, hire a developer, & more",
+            "type": "url",
+            "url": "https://www.codementor.io/user-onboarding/all-set"
+         }, {
+            "date_added": "13222545716000000",
+            "guid": "d74faba0-3093-4e4f-ac83-24bd9717fb7e",
+            "id": "75",
+            "name": "Community - What's New December 2019 | Guided Hacking",
+            "type": "url",
+            "url": "https://guidedhacking.com/threads/whats-new-december-2019.14189/"
+         }, {
+            "date_added": "13223131340000000",
+            "guid": "2a7126e1-9bc0-4998-b633-038039d9318e",
+            "id": "76",
+            "name": "Become an Arc Developer",
+            "type": "url",
+            "url": "https://arc.dev/developer/apply"
+         }, {
+            "date_added": "13223220371000000",
+            "guid": "d380ef28-082b-4067-ab84-39a6997a1dd0",
+            "id": "77",
+            "name": "Twilio Console - SMS Settings Geo Permissions",
+            "type": "url",
+            "url": "https://www.twilio.com/console/sms/settings/geo-permissions"
+         }, {
+            "date_added": "13223229685000000",
+            "guid": "5c585106-eb2d-498d-a56d-e91482c8e79f",
+            "id": "78",
+            "name": "XSS Game - WW3 | PwnFunction",
+            "type": "url",
+            "url": "https://xss.pwnfunction.com/challenges/ww3.html"
+         }, {
+            "date_added": "13223326161000000",
+            "guid": "4f064681-cad5-425c-ac84-3830e77a2b15",
+            "id": "79",
+            "name": "Google CTF",
+            "type": "url",
+            "url": "https://capturetheflag.withgoogle.com/#challenges/"
+         }, {
+            "date_added": "13223502037000000",
+            "guid": "b1577c19-26fe-4b2c-89d5-bef5783e4fe2",
+            "id": "80",
+            "name": "Fundamentals of Parallelism on Intel Architecture | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/parallelism-ia"
+         }, {
+            "date_added": "13223502169000000",
+            "guid": "4840c500-080b-40d8-86eb-fc015dc4648c",
+            "id": "81",
+            "name": "Development of Real-Time Systems | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/real-time-systems#about"
+         }, {
+            "date_added": "13223220403000000",
+            "guid": "f383a17a-9c7b-4794-9d76-b9125a20c96a",
+            "id": "82",
+            "name": "Usage and Migration Guide for Twilio's C#/.NET Helper Library 5.x - Twilio",
+            "type": "url",
+            "url": "https://www.twilio.com/docs/libraries/csharp-dotnet/usage-guide"
+         }, {
+            "date_added": "13223313548000000",
+            "guid": "d93042a9-54ec-4dde-87b2-e66086e68bdc",
+            "id": "83",
+            "name": "Twilio Cloud Communications | Web Service API for building Voice and SMS Applications",
+            "type": "url",
+            "url": "https://www.twilio.com/console"
+         }, {
+            "date_added": "13223501130000000",
+            "guid": "2ce98d8a-b434-4170-bc31-b58fd1282bae",
+            "id": "84",
+            "name": "Distributed Systems Course",
+            "type": "url",
+            "url": "http://www.distributedsystemscourse.com/"
+         }, {
+            "date_added": "13223503120000000",
+            "guid": "9102adb4-666a-4910-866d-12c5d4f848cd",
+            "id": "85",
+            "name": "Design Patterns | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/design-patterns"
+         }, {
+            "date_added": "13223503927000000",
+            "guid": "5f05c1ec-0243-43ac-a3b8-31aad28ca6b8",
+            "id": "86",
+            "name": "Discrete Optimization | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/discrete-optimization"
+         }, {
+            "date_added": "13223851205000000",
+            "guid": "68e89b98-5cb1-4f84-85d0-37b05c130db5",
+            "id": "87",
+            "name": "Android App Reverse Engineering 101 | Learn to reverse engineer Android applications!",
+            "type": "url",
+            "url": "https://maddiestone.github.io/AndroidAppRE/"
+         }, {
+            "date_added": "13223986420000000",
+            "guid": "17337d5e-3788-43c1-91c0-2d91b1fde197",
+            "id": "88",
+            "name": "Intro to Parallel Programming - Udacity",
+            "type": "url",
+            "url": "https://classroom.udacity.com/courses/cs344"
+         }, {
+            "date_added": "13224681931000000",
+            "guid": "d96a4c34-46f3-4078-8d92-2ac0ed4aa26c",
+            "id": "89",
+            "name": "Course Overview | Wilder Minds Training",
+            "type": "url",
+            "url": "https://wilder-minds.teachable.com/courses/279970/lectures/4897955"
+         }, {
+            "date_added": "13224702378000000",
+            "guid": "cc444d08-da2a-425a-b8ac-a5d7fdef7ec8",
+            "id": "90",
+            "name": "dotnet-presentations/blazor-workshop: Blazor workshop",
+            "type": "url",
+            "url": "https://github.com/dotnet-presentations/blazor-workshop"
+         }, {
+            "date_added": "13224945012000000",
+            "guid": "ca499527-75a2-42fd-a01b-c9c65020c249",
+            "id": "91",
+            "name": "Double Entry Accounting in a Relational Database - Robert Chanphakeo - Medium",
+            "type": "url",
+            "url": "https://medium.com/@RobertKhou/double-entry-accounting-in-a-relational-database-2b7838a5d7f8"
+         }, {
+            "date_added": "13224950612000000",
+            "guid": "a4b3beb4-5739-4f80-96a0-57ca279d4f11",
+            "id": "92",
+            "name": "Books, an immutable double-entry accounting database service | Square Corner Blog",
+            "type": "url",
+            "url": "https://developer.squareup.com/blog/books-an-immutable-double-entry-accounting-database-service/"
+         }, {
+            "date_added": "13225160867000000",
+            "guid": "6a2d79ff-14a2-4e69-aeda-057ac5ad89e8",
+            "id": "93",
+            "name": "Wasm By Example",
+            "type": "url",
+            "url": "https://wasmbyexample.dev/examples/reading-and-writing-graphics/reading-and-writing-graphics.rust.en-us.html"
+         }, {
+            "date_added": "13225200351000000",
+            "guid": "90c952b5-e803-4def-aec3-111440d015d8",
+            "id": "94",
+            "name": "Modern Binary Exploitation - Spring 2015",
+            "type": "url",
+            "url": "http://security.cs.rpi.edu/courses/binexp-spring2015/"
+         }, {
+            "date_added": "13225226488000000",
+            "guid": "1920f5a1-039a-4680-a087-3764b0bc8536",
+            "id": "95",
+            "name": "How to manipulate the DOM in Rust Webassembly?",
+            "type": "url",
+            "url": "https://www.webassemblyman.com/rustwasm/how_to_manipulate_the_dom_in_rust_webassembly.html"
+         }, {
+            "date_added": "13225880755000000",
+            "guid": "357df64d-85f1-4373-89eb-9a1187dca953",
+            "id": "96",
+            "name": "247/CTF - The game never stops",
+            "type": "url",
+            "url": "https://247ctf.com/"
+         }, {
+            "date_added": "13226016846000000",
+            "guid": "e92c8534-98cd-4851-9f96-00d9e650c9ee",
+            "id": "97",
+            "name": "Modules · TypeScript",
+            "type": "url",
+            "url": "https://www.typescriptlang.org/docs/handbook/modules.html"
+         }, {
+            "date_added": "13226019236000000",
+            "guid": "360912fc-ce50-4c85-9667-d0c436a331d0",
+            "id": "98",
+            "name": "How to create a Node.js web app using no external packages",
+            "type": "url",
+            "url": "https://www.freecodecamp.org/news/a-no-frills-guide-to-node-js-how-to-create-a-node-js-web-app-without-external-packages-a7b480b966d2/"
+         }, {
+            "date_added": "13226060810000000",
+            "guid": "ca82fda8-0fa4-4d94-bcdc-964d8844d966",
+            "id": "99",
+            "name": "Tech Job Openings at Shopify - Search for Careers in Tech",
+            "type": "url",
+            "url": "https://www.shopify.com/careers/search?specialties%5B%5D=1&keywords=&sort=specialty_asc"
+         }, {
+            "date_added": "13226337774000000",
+            "guid": "71dbb160-956a-4612-aa72-a6fa2fc1b1c6",
+            "id": "100",
+            "name": "PayME Store - Your Online Payment Gateway",
+            "type": "url",
+            "url": "https://www.paymestore.co/"
+         }, {
+            "date_added": "13226521492000000",
+            "guid": "89e3c1b5-c096-4f46-949e-4117bbe10892",
+            "id": "101",
+            "name": "Runtime Command Line Building from Source · Wasmer",
+            "type": "url",
+            "url": "https://docs.wasmer.io/runtime/cli/runtime-cli-building-from-source"
+         }, {
+            "date_added": "13226575724000000",
+            "guid": "9703a9f8-149b-41fa-b700-725bf380b530",
+            "id": "102",
+            "name": "Gameball Documentations – Just another WordPress site",
+            "type": "url",
+            "url": "https://docs.gameball.co/"
+         }, {
+            "date_added": "13226962509000000",
+            "guid": "f0e181d4-e9f1-4368-b4f0-6a3724acf157",
+            "id": "103",
+            "name": "Welcome! - 0ffset",
+            "type": "url",
+            "url": "https://0ffset.net/welcome/"
+         }, {
+            "date_added": "13227301071000000",
+            "guid": "1ff1f99b-d1f0-419c-9da1-4bdf4b8f859f",
+            "id": "104",
+            "name": "Install, Configure, and Maintain Linux DNS Server - Like Geeks",
+            "type": "url",
+            "url": "https://likegeeks.com/linux-dns-server/"
+         }, {
+            "date_added": "13227443163000000",
+            "guid": "0652713c-0545-4862-8d9b-fd2d5ff82895",
+            "id": "105",
+            "name": "OverTheWire: Wargames",
+            "type": "url",
+            "url": "https://overthewire.org/wargames/"
+         }, {
+            "date_added": "13227443219000000",
+            "guid": "98cfa8b0-5129-4559-bbe8-6f94609442f7",
+            "id": "106",
+            "name": "io.netgarage.org",
+            "type": "url",
+            "url": "https://io.netgarage.org/"
+         }, {
+            "date_added": "13227443276000000",
+            "guid": "66401b0e-710d-43e9-853a-70d40b3c46b9",
+            "id": "107",
+            "name": "Exploit Education :: Andrew Griffiths' Exploit Education",
+            "type": "url",
+            "url": "https://exploit.education/"
+         }, {
+            "date_added": "13227443318000000",
+            "guid": "f8c9ded1-bbcb-4f60-a14a-ae443fffcbbc",
+            "id": "108",
+            "name": "https://pwn2.win/2018/#/challenges",
+            "type": "url",
+            "url": "https://pwn2.win/2018/#/challenges"
+         }, {
+            "date_added": "13227443430000000",
+            "guid": "6dc70dc6-a7b5-4135-b5f2-8102198970ca",
+            "id": "109",
+            "name": "[Root Me : Hacking and Information Security learning platform]",
+            "type": "url",
+            "url": "https://www.root-me.org/?page=news&lang=en"
+         }, {
+            "date_added": "13227525713000000",
+            "guid": "c95c7841-55f6-462a-8de6-6682e039c9d6",
+            "id": "110",
+            "name": "Mind Maps",
+            "type": "url",
+            "url": "https://www.amanhardikar.com/mindmaps.html"
+         }, {
+            "date_added": "13227979502000000",
+            "guid": "4925ddb2-a64b-479c-9ef2-8e2c64764b7c",
+            "id": "111",
+            "name": "CS6038/CS5138 Malware Analysis, UC by ckane",
+            "type": "url",
+            "url": "https://class.malware.re/"
+         }, {
+            "date_added": "13228240349000000",
+            "guid": "78054c75-9570-4449-a4d3-d2ad63459396",
+            "id": "112",
+            "name": "Tutorials | DigitalOcean",
+            "type": "url",
+            "url": "https://www.digitalocean.com/community/tutorials"
+         }, {
+            "date_added": "13228310707000000",
+            "guid": "788d43eb-6e43-4201-b67d-3c79c7cacaef",
+            "id": "113",
+            "name": "Compiler Explorer",
+            "type": "url",
+            "url": "https://godbolt.org/"
+         }, {
+            "date_added": "13228340856000000",
+            "guid": "c17b109d-4a94-4d76-9b57-8db1bb286509",
+            "id": "114",
+            "name": "The Enigma Group - The Enigma Group",
+            "type": "url",
+            "url": "https://www.enigmagroup.org/"
+         }, {
+            "date_added": "13228656466000000",
+            "guid": "f290ab59-40e5-436c-8898-256ab78054be",
+            "id": "115",
+            "name": "Counting Sort and its Analysis",
+            "type": "url",
+            "url": "https://www.codesdope.com/course/algorithms-count-and-sort/"
+         }, {
+            "date_added": "13228946053000000",
+            "guid": "e463fa00-00ca-4ed2-8a1c-befa847e3772",
+            "id": "116",
+            "name": "Google Search Operators: The Ultimate List (40+ Advanced Operators)",
+            "type": "url",
+            "url": "https://www.spyfu.com/blog/google-search-operators/"
+         }, {
+            "date_added": "13229787450000000",
+            "guid": "a51dda96-0512-4eac-b0d6-ddbcc75a7393",
+            "id": "117",
+            "name": "Hack This Site!",
+            "type": "url",
+            "url": "https://www.hackthissite.org/missions/programming/"
+         }, {
+            "date_added": "13229965903000000",
+            "guid": "95d660bf-6ea5-4913-93d4-2ef92193cee7",
+            "id": "118",
+            "name": "C# Async Antipatterns",
+            "type": "url",
+            "url": "https://markheath.net/post/async-antipatterns"
+         }, {
+            "date_added": "13229965945000000",
+            "guid": "f01acfa2-67ca-41f0-9be8-cbbae38b1978",
+            "id": "119",
+            "name": "ConfigureAwait FAQ | .NET Blog",
+            "type": "url",
+            "url": "https://devblogs.microsoft.com/dotnet/configureawait-faq/"
+         }, {
+            "date_added": "13230168393000000",
+            "guid": "92a2e45d-b4bc-4724-a1d2-80f897f1fd4e",
+            "id": "120",
+            "name": "CSCG Qualification CTF — eVMoji",
+            "type": "url",
+            "url": "https://earth.2020.cscg.de/tasks/eVMoji"
+         }, {
+            "date_added": "13230318014000000",
+            "guid": "318d6657-7317-4d75-b06d-275978d2b9e7",
+            "id": "121",
+            "name": "start [SilverKey HQ Wiki]",
+            "type": "url",
+            "url": "https://hq.silverkeytech.com/doku.php?id=start"
+         }, {
+            "date_added": "13230909838000000",
+            "guid": "1c42b5d3-fc3c-4962-bf9f-780b912361d4",
+            "id": "122",
+            "name": "projects:giz_edu_inspection [SilverKey HQ Wiki]",
+            "type": "url",
+            "url": "https://hq.silverkeytech.com/doku.php?id=projects:giz_edu_inspection"
+         }, {
+            "date_added": "13231785368000000",
+            "guid": "06e069dc-b5af-40bc-b1d3-183068a6afc2",
+            "id": "123",
+            "name": "Tutorials List - Javatpoint",
+            "type": "url",
+            "url": "https://www.javatpoint.com/"
+         }, {
+            "date_added": "13231846710000000",
+            "guid": "444e597f-103b-4d8a-8540-1675ac00fae6",
+            "id": "124",
+            "name": "Programming for the Puzzled | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+            "type": "url",
+            "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/"
+         }, {
+            "date_added": "13232365439000000",
+            "guid": "760ecc6d-5f9d-459e-bc1a-51ec3351ade7",
+            "id": "125",
+            "name": "Backend Engineer @ Notion",
+            "type": "url",
+            "url": "https://www.notion.so/Backend-Engineer-Notion-4ea2c48b27db4a4e9e4cd49d99f80fbc"
+         }, {
+            "date_added": "13232667063000000",
+            "guid": "c4b672ca-e1f2-42e3-9ffc-343b86425930",
+            "id": "126",
+            "name": "Videos | Hacker101",
+            "type": "url",
+            "url": "https://www.hacker101.com/videos"
+         }, {
+            "date_added": "13232675978000000",
+            "guid": "b9d47dc4-fed8-4a9f-b434-fa574a371bf8",
+            "id": "127",
+            "name": "PentesterLab: Learn Web App Pentesting!",
+            "type": "url",
+            "url": "https://pentesterlab.com/exercises/web_for_pentester/course"
+         }, {
+            "date_added": "13233153799000000",
+            "guid": "f011648b-7dbf-490b-9c2b-56bd72be18f3",
+            "id": "128",
+            "name": "Learn vim For the Last Time: A Tutorial and Primer | Daniel Miessler",
+            "type": "url",
+            "url": "https://danielmiessler.com/study/vim/"
+         }, {
+            "date_added": "13233184793000000",
+            "guid": "b1042256-b7be-43f5-b832-bcd874f27088",
+            "id": "129",
+            "name": "Resize splits more quickly | Vim Tips Wiki | Fandom",
+            "type": "url",
+            "url": "https://vim.fandom.com/wiki/Resize_splits_more_quickly"
+         }, {
+            "date_added": "13231678598000000",
+            "guid": "fd555630-e117-491f-a9d9-343fad55b628",
+            "id": "130",
+            "name": "Form File | Components | BootstrapVue",
+            "type": "url",
+            "url": "https://bootstrap-vue.js.org/docs/components/form-file/"
+         }, {
+            "date_added": "13232816830000000",
+            "guid": "d0575e21-7e39-4922-94d5-90c9de61936c",
+            "id": "131",
+            "name": "All learning materials | Web Security Academy",
+            "type": "url",
+            "url": "https://portswigger.net/web-security/all-materials"
+         }, {
+            "date_added": "13233105497000000",
+            "guid": "a49cc214-b84c-444f-b012-a1d400f683d5",
+            "id": "132",
+            "name": "Introduction to Docker Tutorial | Toptal",
+            "type": "url",
+            "url": "https://www.devglan.com/local/t/ZjUyY5ODMy-389"
+         }, {
+            "date_added": "13233247848000000",
+            "guid": "738b8231-1ba4-4bc5-8d46-1073ed73951c",
+            "id": "133",
+            "name": "Email #2 | RE for Beginners",
+            "type": "url",
+            "url": "https://www.begin.re/assignment-2"
+         }, {
+            "date_added": "13233242340000000",
+            "guid": "3b744375-11af-4dee-b9cb-c8a435c690ae",
+            "id": "134",
+            "name": "RE for Beginners | Reverse Engineering",
+            "type": "url",
+            "url": "https://www.begin.re/#"
+         }, {
+            "date_added": "13245012894000000",
+            "guid": "65f778b5-c368-4c68-a446-3cc6fe46e490",
+            "id": "135",
+            "name": "linux-insides/SUMMARY.md at master · 0xAX/linux-insides",
+            "type": "url",
+            "url": "https://github.com/0xAX/linux-insides/blob/master/SUMMARY.md"
+         }, {
+            "date_added": "13244996202000000",
+            "guid": "1f6f83a7-68c1-47f1-ae62-15cebf0d4816",
+            "id": "136",
+            "name": "lambdalisue/fern.vim: 🌿 General purpose asynchronous tree viewer written in Pure Vim script",
+            "type": "url",
+            "url": "https://github.com/lambdalisue/fern.vim"
+         }, {
+            "date_added": "13247045360000000",
+            "guid": "097e1eae-bf42-4400-9645-27804ba9691a",
+            "id": "137",
+            "name": "iamtimcorey",
+            "type": "url",
+            "url": "https://www.iamtimcorey.com/courses"
+         }, {
+            "date_added": "13246887282000000",
+            "guid": "61905e0c-920a-4d80-b678-255d46fd0892",
+            "id": "138",
+            "name": "البوابة الاليكترونية لشركة جنوب القاهرة لتوزيع الكهرباء",
+            "type": "url",
+            "url": "http://www.scedc.com.eg/Customer/CounterRead.aspx"
+         }, {
+            "date_added": "13247162450000000",
+            "guid": "25914dba-1761-47a1-8c90-ec82b8f5c408",
+            "id": "139",
+            "name": "Exercism",
+            "type": "url",
+            "url": "https://exercism.io/"
+         }, {
+            "date_added": "13247162543000000",
+            "guid": "44918032-a84d-43a5-81c0-929e499baf22",
+            "id": "140",
+            "name": "Coderbyte | Code Screening, Challenges, & Interview Prep",
+            "type": "url",
+            "url": "https://coderbyte.com/"
+         }, {
+            "date_added": "13247163094000000",
+            "guid": "c71919af-897d-435f-9dd1-85ca8db6bda5",
+            "id": "141",
+            "name": "Lesson 6: Files — OSU DevOps BootCamp 0.0.1 documentation",
+            "type": "url",
+            "url": "http://devopsbootcamp.osuosl.org/files.html"
+         }, {
+            "date_added": "13247163293000000",
+            "guid": "e34af41c-cc15-4f4d-a3ce-0988185f7cfb",
+            "id": "142",
+            "name": "Tracks | Exercism",
+            "type": "url",
+            "url": "https://exercism.io/my/tracks"
+         }, {
+            "children": [ {
+               "date_added": "13248464681000000",
+               "guid": "03537fa5-064a-4d9e-84e0-f73878eda2bf",
+               "id": "144",
+               "name": "",
+               "type": "url",
+               "url": "https://www.codewars.com/?language=cpp"
+            }, {
+               "date_added": "13248464614000000",
+               "guid": "f011b9aa-61b3-4404-85fe-4d2af5d7a470",
+               "id": "145",
+               "name": "Edabit // Learn to Code with 10,000+ Interactive Challenges",
+               "type": "url",
+               "url": "https://edabit.com/"
+            } ],
+            "date_added": "13248730228735764",
+            "date_modified": "0",
+            "guid": "f11787cc-16cd-494d-b870-bd1a430f40ea",
+            "id": "143",
+            "name": "uncategorized bookmarks",
+            "type": "folder"
+         } ],
+         "date_added": "13248729978676697",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13248729978676700",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13248729978676702",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

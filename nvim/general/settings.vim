@@ -1,4 +1,5 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
+set autoread
 set formatoptions-=cro                  " Stop newline continution of comments
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
