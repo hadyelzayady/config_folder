@@ -13,26 +13,20 @@ XF86MonBrightness{Down,Up}
 super + {n}
 	rofi -show combi -modi combi,window,run,keys
 
-super + p
-	dmenu_run -H $HOME/.dmenu_history -m dmenumon
+# super + p
+#     dmenu_run -H $HOME/.dmenu_history -m dmenumon
 
-super + {w,o,e,u,Escape}
-  { $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop}
+super + {w,o,e,u,Escape,p}
+  { $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, $TERMINAL -e neomutt}
 
-super + shift + Return
-  { $TERMINAL }
+# super + shift + Return
+#   { $TERMINAL }
 
-super + shift + BackSpace
-	prompt "Reboot computer?" "shutdown -r now"
+super + period
+	rofimoji
 
 super + shift + q
-	prompt "Exit DWM ?" "pkill dwm"
-
-super + shift + x
-	prompt "Shutdown computer?" "shutdown -h now"
-
-super + shift + z
-	suspend_menu
+	sysact
 
 super + Print
 	dmenurecord
@@ -56,8 +50,8 @@ alt + grave
 	copyq toggle
 
 
-super + shift + l
+super + ctrl + l
 	lockscreen
 
 super + {bracketleft,bracketright}
-	transset {--dec,--inc} .08 -a
+	transset-df {--dec,--inc} .08 -a

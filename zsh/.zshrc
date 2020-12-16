@@ -66,11 +66,11 @@ lfcd () {
     fi
 }
 
-source /home/geeker/zsh-git-prompt/zshrc.sh
+# source /home/geeker/zsh-git-prompt/zshrc.sh
 
 # PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$(git_super_status)$%b '
 # PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-PROMPT='%B%m%~%b$(git_super_status)$%b '
+# PROMPT='%B%m%~%b$(git_super_status)$%b '
 # z.lua plugin
 eval "$(lua ~/.config/z.lua --init zsh)"
 
@@ -78,3 +78,4 @@ eval "$(lua ~/.config/z.lua --init zsh)"
 #fzf configs
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
+eval "$(starship init zsh)"
