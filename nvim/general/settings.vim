@@ -15,10 +15,10 @@ set splitbelow                          " Horizontal splits will automatically b
 set splitright                          " Vertical splits will automatically be to the right
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
-set tabstop=2                           " Insert 2 spaces for a tab
+set tabstop=4                           " Insert 2 spaces for a tab
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
-set expandtab                           " Converts tabs to spaces
+" set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
@@ -43,6 +43,10 @@ set guifont=Hack\ Nerd\ Font
 set autochdir                           " Your working directory will always be the same as your working directory
 set foldcolumn=2                        " Folding abilities
 
+" show tab as > and space as -
+set list
+set listchars=tab:>-
+
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 "remove comment in new line
@@ -53,7 +57,8 @@ autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
 
 " Have dwmblocks automatically recompile and run when you edit this file in
 " vim with the following line in your vimrc/init.vim:
-autocmd BufWritePost ~/dwmblocks/config.h !cd ~/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
+autocmd BufWritePost ~/repos/dwmblocks/config.h !cd ~/repos/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
+autocmd BufWritePost ~/repos/dwm/config.h !cd ~/repos/dwm/; sudo make clean install && { kill -HUP $(pgrep -u $USER "\bdwm$") }
 
 " Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e

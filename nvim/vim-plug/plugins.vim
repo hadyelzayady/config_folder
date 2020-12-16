@@ -66,7 +66,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'tpope/vim-rhubarb'
   " Plug 'junegunn/gv.vim'
   " Terminal
-  " Plug 'voldikss/vim-floaterm'
+  Plug 'voldikss/vim-floaterm'
   " Start Screen
   Plug 'mhinz/vim-startify'
   " Vista
@@ -92,6 +92,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " set fern as default explorer instead of netrw
   Plug 'lambdalisue/fern-hijack.vim'
 
+  "syntax hilight for jrnl file
+  Plug 'mode89/vim-jrnl-syntax'
 call plug#end()
 
 " Automatically install missing plugins on startup
