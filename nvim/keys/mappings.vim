@@ -16,6 +16,9 @@ inoremap kj <ESC>
 
 " toggle comment using ctrl+/
 map <C-_> <plug>NERDCommenterToggle
+
+" create file under the cursor
+map <silent> cf :e <cfile><cr>
 " Easy CAPS
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>

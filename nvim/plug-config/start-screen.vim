@@ -37,6 +37,7 @@ let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'r': '~/.bashrc' },
             \ { 'z': '~/.config/zsh/.zshrc' },
+            \ { 'd': '~/repos/dwm' },
             \ ]
 
 let g:startify_enable_special = 0
