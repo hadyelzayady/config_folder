@@ -30,3 +30,4 @@ application/x-desktop=nvim.desktop;vim.desktop;Alacritty.desktop;
 inode/directory=exo-file-manager.desktop;
 x-scheme-handler/trash=exo-file-manager.desktop;
 text/plain=gcr-viewer.desktop;
+application/pdf=foxitreader.desktop;
