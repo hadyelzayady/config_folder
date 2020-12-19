@@ -55,3 +55,6 @@ vnoremap . :norm.<CR>
 
 "search for current selected text by pressing //
 vnoremap // y / C-r0
+
+
+nmap <silent>, <Plug>LineLetters

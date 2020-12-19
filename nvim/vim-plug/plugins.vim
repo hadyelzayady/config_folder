@@ -94,6 +94,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   "syntax hilight for jrnl file
   Plug 'mode89/vim-jrnl-syntax'
+
+  " Jump to any visible line in the buffer by using letters instead of numbers.
+  Plug 'skamsie/vim-lineletters'
 call plug#end()
 
 " Automatically install missing plugins on startup
