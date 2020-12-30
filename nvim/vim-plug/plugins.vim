@@ -89,6 +89,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'lambdalisue/nerdfont.vim'
   Plug 'lambdalisue/fern-renderer-nerdfont.vim'
 
+  " show git status in fern
+  Plug 'lambdalisue/fern-git-status.vim'
   " set fern as default explorer instead of netrw
   Plug 'lambdalisue/fern-hijack.vim'
 
@@ -97,6 +99,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Jump to any visible line in the buffer by using letters instead of numbers.
   Plug 'skamsie/vim-lineletters'
+
+  " plugins for languages
+  Plug 'rust-lang/rust.vim'
 call plug#end()
 
 " Automatically install missing plugins on startup

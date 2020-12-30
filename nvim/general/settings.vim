@@ -42,6 +42,9 @@ set guifont=Hack\ Nerd\ Font
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set mmp=1300
 set autochdir                           " Your working directory will always be the same as your working directory
+
+" better than autochdir
+autocmd BufEnter * silent! lcd %:p:h
 set foldcolumn=2                        " Folding abilities
 
 " show tab as > and space as -

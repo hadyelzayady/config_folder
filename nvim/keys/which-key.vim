@@ -149,6 +149,8 @@ let g:which_key_map.l = {
       \ }
 
 " t is for toggle
+  " \ 't' : [':FloatermToggle'         , 'terminal'],
+
 let g:which_key_map.t = {
       \ 'name' : '+toggle' ,
       \ 'c' : [':ColorizerToggle'        , 'colorizer'],
@@ -156,8 +158,7 @@ let g:which_key_map.t = {
       \ 'n' : [':set nonumber!'          , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'  , 'relative line nums'],
       \ 's' : [':let @/ = ""'            , 'remove search highlight'],
-      \ 't' : [':FloatermToggle'         , 'terminal'],
-      \ 'v' : [':Vista!!'                , 'tag viewer'],
+      \ 't' : [':Vista!!'                , 'tag viewer'],
       \ }
 
 let g:which_key_map.G  = {
