@@ -11,8 +11,7 @@ XF86MonBrightness{Down,Up}
 	xbacklight -{dec,inc} 4
 
 super + {n}
-	rofi -show combi -modi combi,window,run,keys
-
+	rofi -show combi -modi combi,window,run,keys,ssh
 # super + p
 #     dmenu_run -H $HOME/.dmenu_history -m dmenumon
 
