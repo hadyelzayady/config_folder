@@ -14,7 +14,8 @@
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
   "diagnostic.displayByAle": true,
-
+  "diagnostic.enableHighlightLineNumber": true,
+  "dialog.maxWidth": 80,
   // codelens TODO what does this get me?
   "codeLens.enable": true,
 
@@ -32,7 +33,8 @@
     "yaml",
     "json",
     "python",
-    "json"
+    "json",
+    "rust"
   ],
   "coc.preferences.hoverTarget": "float",
 
