@@ -34,7 +34,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 " let g:airline_theme = 'onedark'
 
 " Always show tabs
-set showtabline=2
+" set showtabline=2
 
 " We don't need to see things like -- INSERT -- anymore
 set noshowmode
@@ -43,5 +43,5 @@ set noshowmode
 " let g:airline_section_c = ''
 let g:airline_section_a = "Geeker"
 let g:airline_section_y = ''
-let g:airline_section_z = '%{kite#statusline()}'
+" let g:airline_section_z = '%{kite#statusline()}'
 let g:webdevitons_enable_airline_tabline = 1

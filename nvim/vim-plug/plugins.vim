@@ -27,7 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Text Navigation
   " Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
-  " Plug 'easymotion/vim-easymotion'
+  Plug 'easymotion/vim-easymotion'
   " show color or color value in css for example
   Plug 'norcalli/nvim-colorizer.lua'
   " Plug 'junegunn/rainbow_parentheses.vim'
@@ -95,10 +95,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'lambdalisue/fern-hijack.vim'
 
   "syntax hilight for jrnl file
-  Plug 'mode89/vim-jrnl-syntax'
+  " Plug 'mode89/vim-jrnl-syntax'
 
   " Jump to any visible line in the buffer by using letters instead of numbers.
-  Plug 'skamsie/vim-lineletters'
+  " replaced with easymotion-plugin goto lineletters
+  " Plug 'skamsie/vim-lineletters'
 
   " plugins for languages
   Plug 'rust-lang/rust.vim'
