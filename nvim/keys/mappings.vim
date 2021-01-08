@@ -52,9 +52,3 @@ nnoremap <silent> <M-C-l>    :vertical resize +2<CR>
 
 "enable dot command (repeat last action) to be executed in visual mode
 vnoremap . :norm.<CR>
-
-"search for current selected text by pressing //
-vnoremap // y / C-r0
-
-
-nmap <silent>, <Plug>LineLetters
