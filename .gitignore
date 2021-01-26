@@ -26,3 +26,7 @@ ranger/bookmarks
 Foxit Software/Foxit Reader.conf
 
 google-chrome/
+
+transmission-daemon/dht.dat
+transmission-daemon/stats.json
+transmission-daemon/settings.json

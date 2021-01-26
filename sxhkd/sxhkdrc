@@ -12,14 +12,9 @@ XF86MonBrightness{Down,Up}
 
 super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
-# super + p
-#     dmenu_run -H $HOME/.dmenu_history -m dmenumon
 
 super + {w,o,e,u,Escape,p}
-  { $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, $TERMINAL -e neomutt}
-
-# super + shift + Return
-#   { $TERMINAL }
+  { $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, $TERMINAL -e tremc}
 
 super + period
 	rofimoji
