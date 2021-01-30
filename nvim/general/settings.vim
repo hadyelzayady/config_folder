@@ -69,3 +69,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Save file as sudo on files that require root permission
 cmap w!! w !sudo tee > /dev/null %
+
+
+" use ale with coc
+let g:ale_disable_lsp = 1

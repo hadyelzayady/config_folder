@@ -47,9 +47,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'kaicataldo/material.vim'
   " Plug 'NLKNguyen/papercolor-theme'
   " Plug 'tomasiser/vim-code-dark'
-  " Intellisense
+  " Intellisense, completion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  " lint and fix
+  " lint and fix, error checking
   Plug 'dense-analysis/ale'
   " Status Line
   Plug 'vim-airline/vim-airline'
