@@ -18,6 +18,7 @@ HISTFILE=~/.cache/zsh/history
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # refresh commands cache auto
 zstyle ":completion:*:commands" rehash 1
 zmodload zsh/complist
