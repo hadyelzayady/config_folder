@@ -24,7 +24,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " auto set indent settings
   Plug 'tpope/vim-sleuth'
 
-  " Text Navigation
+  " list of all available completions for its single argument
+  Plug 'rantasub/vim-bash-completion'
+  " " Text Navigation
   " Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
   Plug 'easymotion/vim-easymotion'
