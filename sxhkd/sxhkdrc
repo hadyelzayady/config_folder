@@ -8,7 +8,7 @@ XF86Audio{Raise,Lower}Volume
 	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks && dunstify -r 1 "$(pamixer --get-volume)"
 
 XF86MonBrightness{Down,Up}
-	xbacklight -{dec,inc} 2
+	xbacklight -{dec,inc} 3 && dunstify -r 2 "$(xbacklight -get)"
 
 super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
