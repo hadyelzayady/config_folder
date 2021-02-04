@@ -5,10 +5,10 @@ XF86Audio{Prev,Play,Stop,Next,LowerVolume,RaiseVolume}
 XF86AudioMute
 	pamixer  -t; pkill -RTMIN+10 blocks
 XF86Audio{Raise,Lower}Volume
-	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks && dunstify -r 1 "$(pamixer --get-volume)"
+	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks && dunstify -r 1 "$(pamixer --get-volume) 🔊"
 
 XF86MonBrightness{Down,Up}
-	xbacklight -{dec,inc} 3 && dunstify -r 2 "$(xbacklight -get)"
+	sudo xbacklight -{dec,inc} 3 && dunstify -r 2 "$(xbacklight -get) 🌞"
 
 super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
