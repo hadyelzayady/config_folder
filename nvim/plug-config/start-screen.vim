@@ -38,6 +38,7 @@ let g:startify_bookmarks = [
             \ { 'r': '~/.bashrc' },
             \ { 'z': '~/.config/zsh/.zshrc' },
             \ { 'd': '~/repos/dwm' },
+            \ { 'f': '~/.local/bin/scripts/dgit' },
             \ ]
 
 let g:startify_enable_special = 0
