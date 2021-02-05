@@ -39,7 +39,7 @@ alias \
 	xr="sudo xbps-remove -R" \
 	xq="xbps-query" \
 	z="zathura" \
-	ll="ls -al"
+	ll="ls -al" \
 	yay="yay --answerclean All --answerdiff None"
 alias \
 	magit="nvim -c MagitOnly" \
