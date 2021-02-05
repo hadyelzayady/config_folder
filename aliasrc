@@ -40,7 +40,7 @@ alias \
 	xq="xbps-query" \
 	z="zathura" \
 	ll="ls -al"
-
+	yay="yay --answerclean All --answerdiff None"
 alias \
 	magit="nvim -c MagitOnly" \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
