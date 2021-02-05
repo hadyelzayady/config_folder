@@ -15,7 +15,6 @@ alias \
 	connect="nmtui" \
 	kali="docker run -t -v ~/docker-images-volumes/kali:/root/host -i kalilinux/kali-rolling /bin/bash" \
 	cvim="nvim -u NONE" \
-	sm="abduco"
 
 # Colorize commands when possible.
 alias \
@@ -30,21 +29,14 @@ alias \
 	g="git" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
-	sdn="sudo shutdown -h now" \
 	f="$FILE" \
 	e="$EDITOR" \
-	v="$EDITOR" \
 	p="sudo pacman" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
-	z="zathura" \
 	ll="ls -al" \
 	yay="yay --answerclean All --answerdiff None"
 alias \
 	magit="nvim -c MagitOnly" \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
-	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
 	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
 	android="aft-mtp-cli"
 
