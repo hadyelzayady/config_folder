@@ -10,7 +10,7 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
-inode/directory=thunar.desktop
+inode/directory=ranger.desktop
 application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
 
@@ -27,7 +27,7 @@ application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 application/x-desktop=nvim.desktop;vim.desktop;Alacritty.desktop;
-inode/directory=exo-file-manager.desktop;
+inode/directory=thunar.desktop;
 x-scheme-handler/trash=exo-file-manager.desktop;
 text/plain=gcr-viewer.desktop;
 application/pdf=foxitreader.desktop;
