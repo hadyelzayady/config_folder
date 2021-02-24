@@ -5,10 +5,9 @@
     \ 'coc-html',
     \ 'coc-css',
     \ 'coc-cssmodules',
-    \ 'coc-python',
-    \ 'coc-explorer',
     \ 'coc-prettier',
     \ 'coc-json',
+    \ 'coc-pyright',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
@@ -128,28 +127,4 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " " Resume latest coc list.
 " nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-
-" Explorer
-" let g:coc_explorer_global_presets = {
-" \   'floating': {
-" \      'position': 'floating',
-" \   },
-" \   'floatingLeftside': {
-" \      'position': 'floating',
-" \      'floating-position': 'left-center',
-" \      'floating-width': 30,
-" \   },
-" \   'floatingRightside': {
-" \      'position': 'floating',
-" \      'floating-position': 'right-center',
-" \      'floating-width': 30,
-" \   },
-" \   'simplify': {
-" \     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
-" \   }
-" \ }
-"nmap <silent> <space>e :CocCommand explorer<CR>
-" nnoremap <silent> <leader>e :CocCommand explorer<CR>
-" nmap <space>f :CocCommand explorer --preset floatingRightside<CR>
-autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 

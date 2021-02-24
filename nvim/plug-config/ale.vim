@@ -1,4 +1,4 @@
-
+let g:ale_completion_autoimport = 1
 let g:ale_linters_explicit = 1
 let g:ale_linters = {
             \'python': ['autopep8'],
@@ -11,9 +11,10 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'css': ['prettier'],
-\   'python':['autopep8','yapf'],
+\   'python':['autopep8','yapf','autoimport'],
 \   'html':['prettier'],
 \}
 
 let g:ale_sign_error = '>>'
 let g:ale_sign_warning = '--'
+let g:ale_sign_info = ''

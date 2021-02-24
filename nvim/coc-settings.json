@@ -9,20 +9,17 @@
   },
   "suggest.enablePreview": true,
   // diagnostics
-  "diagnostic.errorSign": "✗",
-  "diagnostic.warningSign": "⚠",
-  "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
   "diagnostic.displayByAle": true,
   "diagnostic.enableHighlightLineNumber": true,
+
   "dialog.maxWidth": 80,
-  // codelens TODO what does this get me?
+  // show suggetions or some info on lines like this line was added by hady on 21 october
   "codeLens.enable": true,
 
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
-
   // autoformat
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
@@ -36,24 +33,12 @@
     "json",
     "rust"
   ],
-  "coc.preferences.hoverTarget": "float",
+  "coc.preferences.formatOnType": true,
 
-  // python config
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
+  "coc.preferences.hoverTarget": "float",
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
-
-  // explorer
-  "explorer.width": 30,
-  "explorer.icon.enableNerdfont": false,
-  "explorer.previewAction.onHover": false,
-  "explorer.icon.enableVimDevicons": false,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-  },
 
   "languageserver": {
     "bash": {

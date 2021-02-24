@@ -25,8 +25,10 @@
  source $HOME/.config/nvim/plug-config/rainbow.vim
  source $HOME/.config/nvim/plug-config/quickscope.vim
  source $HOME/.config/nvim/plug-config/sneak.vim
+ " use coc for intellisense(code completion, goto def,...)
  source $HOME/.config/nvim/plug-config/coc.vim
- source $HOME/.config/nvim/plug-config/neomake.vim
+" source $HOME/.config/nvim/plug-config/neomake.vim
+ " use ale for code linting(code analysis like show warnings and errors)
  source $HOME/.config/nvim/plug-config/ale.vim
  source $HOME/.config/nvim/plug-config/goyo.vim
  source $HOME/.config/nvim/plug-config/vim-rooter.vim

@@ -13,6 +13,7 @@ application/x-extension-xht=firefox.desktop
 inode/directory=ranger.desktop
 application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
+x-scheme-handler/kite=kite-copilot.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;

@@ -17,6 +17,7 @@ Notion/
 nvim/.netrwhist
 nvim/autoload/
 youtube-music-desktop-app/
+nvim/pack/
 
 zsh/.zcompdump
 zsh/.zcompdump
@@ -33,3 +34,17 @@ transmission-daemon/settings.json
 whoozle.github.io/aft-linux-cli.history
 qalculate/qalc.cfg
 qalculate/qalc.history
+zoomus.conf
+Unknown Organization/zoom.conf
+
+Electron/
+
+autostart/kite-autostart.desktop
+systemd/user/basic.target.wants/kite-updater.timer
+systemd/user/default.target.wants/kite-autostart.service
+systemd/user/kite-autostart.service
+systemd/user/kite-updater.service
+systemd/user/kite-updater.timer
+Kite/
+
+QtProject.conf

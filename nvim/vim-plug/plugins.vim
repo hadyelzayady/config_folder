@@ -77,8 +77,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'liuchengxu/vim-which-key'
   " Zen mode
   Plug 'junegunn/goyo.vim'
-  " Making stuff
-  Plug 'neomake/neomake'
+  " another linter like ale
+  " Plug 'neomake/neomake'
   " Snippets TODO fix TAB hijack
   " Plug 'SirVer/ultisnips'
   " Better Comments
