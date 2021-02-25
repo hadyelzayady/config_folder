@@ -48,3 +48,4 @@ systemd/user/kite-updater.timer
 Kite/
 
 QtProject.conf
+autostart/copyq.desktop

@@ -3,7 +3,8 @@ XF86Audio{Prev,Play,Stop,Next,LowerVolume,RaiseVolume}
 
 
 XF86AudioMute
-	pamixer  -t; pkill -RTMIN+10 blocks
+	pamixer  -t; pkill -RTMIN+10 blocks && dunstify -r 1 $( [[ $(pamixer --get-mute) == "false" ]] && echo  "$(pamixer --get-volume) 🔊" || echo "🔇")
+
 XF86Audio{Raise,Lower}Volume
 	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks && dunstify -r 1 "$(pamixer --get-volume) 🔊"
 
@@ -14,7 +15,7 @@ super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
 
 super + {w,o,e,u,Escape,p}
-  { $BROWSER,$FILE,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, transmission-daemon && $TERMINAL -e tremc}
+  { $BROWSER,thunar,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, transmission-daemon && $TERMINAL -e tremc}
 
 super + period
 	rofimoji
@@ -42,7 +43,6 @@ super + F11
 
 alt + grave
 	copyq toggle
-
 
 super + ctrl + l
 	lockscreen

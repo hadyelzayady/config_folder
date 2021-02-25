@@ -16,8 +16,8 @@ set splitbelow                          " Horizontal splits will automatically b
 set splitright                          " Vertical splits will automatically be to the right
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
-set tabstop=4                           " Insert 2 spaces for a tab
-set shiftwidth=2                        " Change the number of space characters inserted for indentation
+set tabstop=4                           " a tab will show distance like 4 spaces
+set shiftwidth=4                        " how much >> (keymap) will shift the line
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 " set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
@@ -28,7 +28,7 @@ set cursorline                          " Enable highlighting of the current lin
 autocmd WinEnter * setlocal cursorline  " set hilight of the current line if buffer is focused
 autocmd WinLeave * setlocal nocursorline " remove hilight of the current line if buffer is not focued
 set background=dark                     " tell vim what the background color looks like
-set showtabline=2                       " Always show tabs
+" set showtabline=2                       " Always show tabs(tabs in files)
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
@@ -43,8 +43,6 @@ set guifont=Hack\ Nerd\ Font
 " set mmp=1300
 " set autochdir                           " Your working directory will always be the same as your working directory
 
-" better than autochdir
-" autocmd BufEnter * silent! lcd %:p:h
 set foldcolumn=2                        " Folding abilities
 
 " show tab as > and space as -
