@@ -39,7 +39,7 @@ super + F7
 	displayselect
 
 super + F11
-  translate
+	translate
 
 alt + grave
 	copyq toggle
