@@ -66,6 +66,12 @@ autocmd BufWritePost ~/repos/dwm/config.h !cd ~/repos/dwm/; sudo make clean inst
 " Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
 
+" auto mkdir if the file path does not exist
+augroup Mkdir
+  autocmd!
+  autocmd BufWritePre * call mkdir(expand("<afile>:p:h"), "p")
+augroup END
+
 " Save file as sudo on files that require root permission
 cmap w!! w !sudo tee > /dev/null %
 

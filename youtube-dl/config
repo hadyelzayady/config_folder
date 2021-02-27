@@ -1,0 +1,7 @@
+--external-downloader aria2c
+--ignore-errors
+# --no-playlist
+
+# Save in ~/Videos
+-o ~/Downloads/Videos/%(title)s.%(ext)s
+

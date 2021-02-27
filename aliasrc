@@ -35,7 +35,8 @@ alias \
 	e="$EDITOR" \
 	p="sudo pacman" \
 	ll="ls -al" \
-	yay="yay --answerclean All --answerdiff None"
+	yay="yay --answerclean All --answerdiff None" \
+	bluetooth="blueman-applet"
 alias \
 	magit="nvim -c MagitOnly" \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
