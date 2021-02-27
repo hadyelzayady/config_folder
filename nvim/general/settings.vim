@@ -38,6 +38,7 @@ set updatetime=300                      " Faster completion
 set timeoutlen=1000                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
+set isfname=@,48-57,/,.,-,_,+,#,$,%,~,= " define how gf will detect filename, this is the default value but execluded the comma from filename, check help gf for more
 set guifont=Hack\ Nerd\ Font
 " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set mmp=1300
@@ -47,7 +48,7 @@ set foldcolumn=2                        " Folding abilities
 
 " show tab as > and space as -
 set list
-set listchars=tab:>-
+" set listchars=nbsp:_,tab:>-,trail:~
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
