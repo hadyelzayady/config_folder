@@ -2,6 +2,7 @@
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 
+set share_history   # to share history between zsh terminals
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 
