@@ -5,7 +5,8 @@
   "suggest.completionItemKindLabels": {
     "text": "t",
     "method": "m",
-    "function": "f"
+    "function": "f",
+    "module": "mod"
   },
   "suggest.enablePreview": true,
   // diagnostics

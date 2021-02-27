@@ -32,7 +32,7 @@ let g:startify_session_persistence = 1
 "     endfunction
 
 let g:startify_bookmarks = [
-            \ { 's': '~/.config/nvim/plug-config/start-screen.vim' },
+            \ { ';': '~/.config/nvim/plug-config/start-screen.vim' },
             \ { 'x': '~/.config/sxhkd/sxhkdrc' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'r': '~/.bashrc' },

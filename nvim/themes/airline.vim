@@ -14,7 +14,7 @@ let g:airline#extensions#tabline#show_tab_nr = 1 " show tab number
 
 let g:airline#extensions#tabline#buffers_label = 'b'
 let g:airline#extensions#tabline#tabs_label = 't'
-let g:airline#extensions#kite#statusline = 1
+" let g:airline#extensions#kite#statusline = 1
 " Just show the file name
 let g:airline#extensions#tabline#fnamemod = ':p'
 

@@ -1,7 +1,7 @@
 let g:ale_completion_autoimport = 1
 let g:ale_linters_explicit = 1
 let g:ale_linters = {
-            \'python': ['autopep8'],
+            \'python': ['autopep8','pyright','flake8'],
             \'cpp': ['clang'],
             \}
 
@@ -11,7 +11,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'css': ['prettier'],
-\   'python':['autopep8','yapf','autoimport'],
+\   'python':['autopep8','yapf','autoimport','isort'],
 \   'html':['prettier'],
 \}
 
