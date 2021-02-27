@@ -4,12 +4,12 @@ program_options:
   # Configure defaults for command line options
 
   udisks_version:
-    2 # [int] Specify the version of udisks
+    0 # [int] Specify the version of udisks
     # to be used. Set to 0 to use automatic
     # discovery.
 
   tray:
-    false # [bool] Enable the tray icon. "auto"
+    auto # [bool] Enable the tray icon. "auto"
     # means auto-hide the tray icon when
     # there are no handled devices.
 
@@ -67,10 +67,10 @@ notifications:
   timeout: 1 # set the default for all notifications
 
   # Specify only if you want to overwrite the the default:
-  device_mounted: 5 # mount notification
-  device_unmounted: false # unmount notification
-  device_added: false # device has appeared
-  device_removed: false # device has disappeared
+  device_mounted: 3 # mount notification
+  device_unmounted: 3 # unmount notification
+  device_added: 5 # device has appeared
+  device_removed: 3 # device has disappeared
   device_unlocked: -1 # encrypted device was unlocked
   device_locked: -1 # encrypted device was locked
   job_failed: -1 # mount/unlock/.. has failed
