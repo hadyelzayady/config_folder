@@ -1,1 +1,1 @@
-sudo prime-switch
+# sudo prime-switch

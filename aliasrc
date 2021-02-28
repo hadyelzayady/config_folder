@@ -20,11 +20,11 @@ alias \
 alias \
 	exa="exa --header" \
 	ls="exa --group-directories-first" \
-	# ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi"
 
+# ls="ls -hN --color=auto --group-directories-first" \
 # These common commands are just too long! Abbreviate them.
 alias \
 	ka="killall" \
