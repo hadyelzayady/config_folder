@@ -110,6 +110,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " to show indentation with vertical bar (useful when using spaces with
   " expand tab so after each tab(exapned to spaces) )
   Plug 'Yggdroot/indentLine'
+
+  " auto make file executable based on filetype like python and bash
+  Plug 'vitalk/vim-shebang'
 call plug#end()
 
 " Automatically install missing plugins on startup

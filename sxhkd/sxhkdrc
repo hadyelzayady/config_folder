@@ -29,8 +29,8 @@ super + Print
 super + Delete
 	dmenurecord kill
 
-super + shift + {m,ctrl+m,s}
-	{dmenumount,dmenuumount,flameshot gui}
+super + shift + {m,ctrl+m,s,p}
+	{dmenumount,dmenuumount,flameshot gui,passmenu}
 
 super + F8
 	networkmanager_dmenu
