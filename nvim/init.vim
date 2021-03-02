@@ -39,3 +39,4 @@
  source $HOME/.config/nvim/plug-config/vista.vim
  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
  source $HOME/.config/nvim/plug-config/easymotion.vim
+ source $HOME/.config/nvim/plug-config/vimspector.vim

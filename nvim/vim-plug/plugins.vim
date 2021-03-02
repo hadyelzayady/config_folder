@@ -83,8 +83,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'SirVer/ultisnips'
   " Better Comments
   " Plug 'jbgutierrez/vim-better-comments'
-  " Echo doc
-  " Plug 'Shougo/echodoc.vim'
+  " Echo doc (like function signature in vim echo area)
+  Plug 'Shougo/echodoc.vim'
 
   "fern explorer with nerd icons plugins
   Plug 'lambdalisue/fern.vim'
@@ -113,7 +113,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " auto make file executable based on filetype like python and bash
   Plug 'vitalk/vim-shebang'
-call plug#end()
+
+  " debugging plugin
+  Plug 'puremourning/vimspector'
+
+  " View markdown on browser with sync with nvim
+  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+  call plug#end()
 
 " Automatically install missing plugins on startup
 autocmd VimEnter *

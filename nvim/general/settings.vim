@@ -1,7 +1,6 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set autoread
 set undofile                 			" persistant undo after closing file
-set formatoptions-=cro                  " Stop newline continution of comments
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set wrap                                " wrap lines
@@ -52,8 +51,6 @@ set list
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
-"remove comment in new line
-autocmd FileType * set formatoptions-=cro
 
 " Update binds when sxhkdrc is updated.
 autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
