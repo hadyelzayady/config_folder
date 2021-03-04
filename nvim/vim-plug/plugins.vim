@@ -120,6 +120,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " View markdown on browser with sync with nvim
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
+  " markdown
+  Plug 'godlygeek/tabular'
+  Plug 'plasticboy/vim-markdown'
   call plug#end()
 
 " Automatically install missing plugins on startup

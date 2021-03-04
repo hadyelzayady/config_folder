@@ -50,7 +50,7 @@
     show_indicators = yes
     icon_position = left
     max_icon_size = 40
-    #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
     sticky_history = yes
     history_length = 20
     dmenu = /usr/local/bin/dmenu -p dunst:
@@ -91,6 +91,7 @@
     foreground = "#ebdbb2"
     frame_color = "#fabd2f"
     timeout = 0
+    # icon= /home/geeker/alert.png
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
