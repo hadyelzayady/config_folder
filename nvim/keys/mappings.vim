@@ -28,6 +28,10 @@ nnoremap <silent> <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
+" prevent buffer switching in fern explorer
+autocmd FileType fern nnoremap <silent> <TAB> :<CR>
+autocmd FileType fern nnoremap <silent> <S-TAB> :<CR>
+
 " Alternate way to save
 nnoremap <silent> <C-s> :w<CR>
 " Alternate way to quit
