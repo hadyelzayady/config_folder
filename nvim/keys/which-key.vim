@@ -164,7 +164,7 @@ let g:which_key_map.t = {
 let g:which_key_map.G  = {
       \'name':"+global",
       \'f':[':FZF /' , 'root search files'],
-      \'F':[':Files ~' , 'home search files'],
+      \'F':[':FZF ~/' , 'home search files'],
       \}
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
