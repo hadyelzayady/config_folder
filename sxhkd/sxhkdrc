@@ -15,7 +15,7 @@ super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
 
 super + {w,o,e,u,Escape,p}
-  { $BROWSER,thunar,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, transmission-daemon && $TERMINAL -e tremc}
+  { $BROWSER,thunar,$TERMINAL -e ranger,$TERMINAL -e calcurse , $TERMINAL -e htop, mailspring}
 
 super + period
 	rofimoji
