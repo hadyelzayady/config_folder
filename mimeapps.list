@@ -14,6 +14,7 @@ inode/directory=ranger.desktop
 application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
 x-scheme-handler/kite=kite-copilot.desktop
+x-scheme-handler/mailspring=mailspring.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
