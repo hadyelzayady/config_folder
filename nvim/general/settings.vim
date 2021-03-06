@@ -75,3 +75,10 @@ cmap w!! w !sudo tee > /dev/null %
 
 " use ale with coc
 let g:ale_disable_lsp = 1
+
+
+" to make vim-fugitive push and pull commands work fine
+" command! -bang -bar -nargs=* Gpush execute 'Dispatch<bang> -dir=' .
+"       \ fnameescape(FugitiveGitDir()) 'git push' <q-args>
+" command! -bang -bar -nargs=* Gfetch execute 'Dispatch<bang> -dir=' .
+"       \ fnameescape(FugitiveGitDir()) 'git fetch' <q-args>

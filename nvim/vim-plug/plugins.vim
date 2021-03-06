@@ -64,7 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/fzf.vim'
   " Git
   Plug 'airblade/vim-gitgutter'
-  Plug 'tpope/vim-fugitive'
+  Plug 'lambdalisue/gina.vim'
+  " Plug 'tpope/vim-fugitive'
   " Plug 'tpope/vim-rhubarb'
   " Plug 'junegunn/gv.vim'
   " Terminal
