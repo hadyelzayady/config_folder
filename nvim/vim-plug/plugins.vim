@@ -104,7 +104,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'skamsie/vim-lineletters'
 
   " plugins for languages
-  Plug 'rust-lang/rust.vim'
+  " Plug 'rust-lang/rust.vim'
 
 
   " to show indentation with vertical bar (useful when using spaces with

@@ -3,6 +3,7 @@ let g:ale_linters_explicit = 1
 let g:ale_linters = {
             \'python': ['autopep8','pyright','flake8'],
             \'cpp': ['clang'],
+            \'rust': ['rustc','rust-analyzer'],
             \}
 
 " Set this variable to 1 to fix files when you save them.
@@ -13,6 +14,7 @@ let g:ale_fixers = {
 \   'css': ['prettier'],
 \   'python':['autopep8','yapf','autoimport','isort'],
 \   'html':['prettier'],
+\   'rust':['rustfmt'],
 \}
 
 let g:ale_sign_error = '>>'

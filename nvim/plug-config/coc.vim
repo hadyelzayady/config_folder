@@ -8,6 +8,7 @@
     \ 'coc-prettier',
     \ 'coc-json',
     \ 'coc-pyright',
+    \ 'coc-rls',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
