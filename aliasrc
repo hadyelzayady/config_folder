@@ -29,6 +29,7 @@ alias \
 alias \
 	cls="clear" \
 	ka="killall" \
+	tv="serviio &! && serviio-console" \
 	g="git" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
