@@ -15,6 +15,7 @@ application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
 x-scheme-handler/kite=kite-copilot.desktop
 x-scheme-handler/mailspring=mailspring.desktop
+application/x-extension-burp=install4j_smcrq9-BurpSuitePro.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -31,5 +32,5 @@ application/x-extension-xht=firefox.desktop;
 application/x-desktop=nvim.desktop;vim.desktop;Alacritty.desktop;
 inode/directory=thunar.desktop;
 x-scheme-handler/trash=exo-file-manager.desktop;
-text/plain=gcr-viewer.desktop;
+text/plain=wine-extension-txt.desktop;gcr-viewer.desktop;
 application/pdf=foxitreader.desktop;
