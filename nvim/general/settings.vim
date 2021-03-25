@@ -1,5 +1,6 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set autoread
+set title                               " change terminal window title based on opened file in vim
 set undofile                 			" persistant undo after closing file
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers

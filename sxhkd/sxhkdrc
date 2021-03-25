@@ -14,7 +14,7 @@ XF86MonBrightness{Down,Up}
 super + {n}
 	rofi -show combi -modi combi,window,run,keys,ssh
 
-super + ctrl + {w,o,e,u,Escape,p}
+super + {w,o,e,u,Escape,p}
   { $BROWSER,thunar,$TERMINAL -e ranger,$TERMINAL --title "calcurse-float"  -e calcurse , $TERMINAL -e htop, mailspring}
 
 super + period
@@ -44,7 +44,7 @@ super + F11
 alt + grave
 	copyq toggle
 
-super + ctrl + l
+super + comma
 	lockscreen
 
 super + {bracketleft,bracketright}
