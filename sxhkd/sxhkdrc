@@ -11,8 +11,8 @@ XF86Audio{Raise,Lower}Volume
 XF86MonBrightness{Down,Up}
 	sudo xbacklight -{dec,inc} 3 && dunstify -r 2 "$(xbacklight -get) 🌞"
 
-super + {n}
-	rofi -show combi -modi combi,window,run,keys,ssh
+super + {n,ctrl+n}
+	{rofi,sudo -E rofi} -show combi -modi combi,window,run,keys,ssh
 
 super + {w,o,e,u,Escape,p}
   { $BROWSER,thunar,$TERMINAL -e ranger,$TERMINAL --title "calcurse-float"  -e calcurse , $TERMINAL -e htop, mailspring}

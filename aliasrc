@@ -27,6 +27,7 @@ alias \
 # ls="ls -hN --color=auto --group-directories-first" \
 # These common commands are just too long! Abbreviate them.
 alias \
+	gfdisk="cfdisk" \
 	cls="clear" \
 	ka="killall" \
 	tv="serviio &! && serviio-console" \
