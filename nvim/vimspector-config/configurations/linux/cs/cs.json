@@ -1,0 +1,15 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json",
+  "configurations": {
+    "launch - netcoredbg": {
+      "adapter": "netcoredbg",
+      "configuration": {
+        "request": "launch",
+        "program": "bin/Debug/net5.0/${workspaceFolderBasename}.dll",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}"
+      }
+    }
+  }
+}

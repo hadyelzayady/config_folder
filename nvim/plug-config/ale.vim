@@ -15,6 +15,7 @@ let g:ale_fixers = {
 \   'python':['autopep8','yapf','autoimport','isort'],
 \   'html':['prettier'],
 \   'rust':['rustfmt'],
+\   'cs':['uncrustify'],
 \}
 
 let g:ale_sign_error = '>>'

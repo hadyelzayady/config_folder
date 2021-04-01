@@ -21,8 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'preservim/nerdcommenter'
   " Have the file system follow you around (change the cwd to the the directory of of the current opened file)
   Plug 'airblade/vim-rooter'
-  " auto set indent settings
-  Plug 'tpope/vim-sleuth'
+  " auto set indent settings (replaced by vim-polyglot)
+  " Plug 'tpope/vim-sleuth'
 
   " list of all available completions for its single argument
   Plug 'rantasub/vim-bash-completion'
@@ -124,6 +124,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " markdown
   Plug 'godlygeek/tabular'
   Plug 'plasticboy/vim-markdown'
+
+
+  " c#
+  Plug 'OmniSharp/omnisharp-vim'
+  " Plug 'embear/vim-uncrustify'
   call plug#end()
 
 " Automatically install missing plugins on startup

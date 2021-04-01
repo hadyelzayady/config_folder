@@ -66,3 +66,7 @@ VirtualBox/
 
 jesseduffield/
 lutris/
+
+rclone/rclone.conf
+
+nvim/vimspector-config/gadgets
