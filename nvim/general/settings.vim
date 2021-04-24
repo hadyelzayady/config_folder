@@ -44,7 +44,7 @@ set guifont=Hack\ Nerd\ Font
 " set mmp=1300
 set autochdir                           " Your working directory will always be the same as your working directory
 
-set foldcolumn=2                        " Folding abilities
+" set foldcolumn=2                        " Folding abilities
 
 " show tab as > and space as -
 set list

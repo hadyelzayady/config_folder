@@ -14,7 +14,7 @@ inode/directory=ranger.desktop
 application/pdf=FoxitReader.desktop
 application/ppdf=FoxitReader.desktop
 x-scheme-handler/kite=kite-copilot.desktop
-x-scheme-handler/mailspring=mailspring.desktop
+x-scheme-handler/mailspring=Mailspring.desktop
 application/x-extension-burp=install4j_smcrq9-BurpSuitePro.desktop
 
 [Added Associations]
