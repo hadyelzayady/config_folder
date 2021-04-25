@@ -41,6 +41,9 @@ super + F7
 super + F11
 	translate
 
+super + F1
+	dunstctl set-paused toggle
+
 alt + grave
 	copyq toggle
 
