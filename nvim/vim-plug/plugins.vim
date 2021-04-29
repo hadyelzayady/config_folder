@@ -46,6 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Themes
   " Plug 'christianchiarulli/nvcode.vim'
   Plug 'joshdick/onedark.vim'
+  Plug 'bluz71/vim-moonfly-colors'
   " Plug 'kaicataldo/material.vim'
   " Plug 'NLKNguyen/papercolor-theme'
   " Plug 'tomasiser/vim-code-dark'

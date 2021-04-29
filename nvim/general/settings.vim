@@ -27,7 +27,7 @@ set number relativenumber                             " Line numbers
 set cursorline                          " Enable highlighting of the current line
 autocmd WinEnter * setlocal cursorline  " set hilight of the current line if buffer is focused
 autocmd WinLeave * setlocal nocursorline " remove hilight of the current line if buffer is not focued
-set background=dark                     " tell vim what the background color looks like
+" set background=dark                     " tell vim what the background color looks like
 " set showtabline=2                       " Always show tabs(tabs in files)
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc

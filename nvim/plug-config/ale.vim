@@ -16,6 +16,7 @@ let g:ale_fixers = {
 \   'html':['prettier'],
 \   'rust':['rustfmt'],
 \   'cs':['uncrustify'],
+\   'go':['goimports'],
 \}
 
 let g:ale_sign_error = '>>'
