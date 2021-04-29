@@ -70,3 +70,5 @@ lutris/
 rclone/rclone.conf
 
 nvim/vimspector-config/gadgets
+
+calcurse/.daemon.pid
