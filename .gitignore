@@ -72,3 +72,11 @@ rclone/rclone.conf
 nvim/vimspector-config/gadgets
 
 calcurse/.daemon.pid
+menus/applications-merged/wine-*
+
+tmux/plugins/tmux
+tmux/plugins/tmux-power
+tmux/plugins/tmux-resurrect
+tmux/plugins/tpm
+tmux/plugins/vim-tmux-navigator
+torbrowser/settings.json
