@@ -83,3 +83,10 @@ torbrowser/settings.json
 todoist/
 
 todoist-nativefier*
+
+UMS/database/
+UMS/data/
+UMS/UMS.cred
+UMS/UMS.dat
+UMS/debug.log
+UMS/debug.log.prev
