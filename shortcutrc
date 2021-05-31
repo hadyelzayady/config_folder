@@ -3,7 +3,7 @@ bindkey -v '^?' backward-delete-char
 
 bindkey -s '^f' '"$(fzf)"\n'
 
-bindkey '^[[P' delete-char
+bindkey "^[[3~" delete-char
 
 bindkey -s '^G' 'lazygit\n'
 
