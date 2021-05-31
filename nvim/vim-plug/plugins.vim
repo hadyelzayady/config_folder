@@ -93,7 +93,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'lambdalisue/fern.vim'
   Plug 'lambdalisue/nerdfont.vim'
   Plug 'lambdalisue/fern-renderer-nerdfont.vim'
-
+  Plug 'christoomey/vim-tmux-navigator'
   " show git status in fern
   Plug 'lambdalisue/fern-git-status.vim'
   " set fern as default explorer instead of netrw
