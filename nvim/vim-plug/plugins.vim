@@ -109,6 +109,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " plugins for languages
   " Plug 'rust-lang/rust.vim'
 
+  " interact with tmux from vim
+  Plug 'preservim/vimux'
 
   " to show indentation with vertical bar (useful when using spaces with
   " expand tab so after each tab(exapned to spaces) )

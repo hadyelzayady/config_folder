@@ -61,3 +61,28 @@ nnoremap <silent> <M-C-l>    :vertical resize +2<CR>
 
 "enable dot command (repeat last action) to be executed in visual mode
 vnoremap . :norm.<CR>
+
+" **********************  Vimux ********************
+" Run the current file with rspec
+map <Leader>rb :call VimuxRunCommand("clear; python " . bufname("%"))<CR>
+
+" Prompt for a command to run
+map <Leader>rp :VimuxPromptCommand<CR>
+
+" Run last command executed by VimuxRunCommand
+map <Leader>rl :VimuxRunLastCommand<CR>
+
+" Inspect runner pane
+map <Leader>ri :VimuxInspectRunner<CR>
+
+" Close vim tmux runner opened by VimuxRunCommand
+map <Leader>rq :VimuxCloseRunner<CR>
+
+" Interrupt any command running in the runner pane
+map <Leader>rx :VimuxInterruptRunner<CR>
+
+" Zoom the runner pane (use <bind-key> z to restore runner pane)
+map <Leader>rz :call VimuxZoomRunner()<CR>
+
+" Clear the terminal screen of the runner pane.
+map <Leader>r<C-l> :VimuxClearTerminalScreen<CR>
