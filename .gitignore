@@ -90,3 +90,7 @@ UMS/UMS.cred
 UMS/UMS.dat
 UMS/debug.log
 UMS/debug.log.prev
+
+calcurse/caldav/oauth2_cred
+gtk-2.0/gtkfilechooser.ini
+GIMP/

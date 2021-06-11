@@ -34,3 +34,5 @@ inode/directory=ranger.desktop;thunar.desktop
 x-scheme-handler/trash=exo-file-manager.desktop;
 text/plain=nvim.desktop;vim.desktop;wine-extension-txt.desktop;gcr-viewer.desktop;
 application/pdf=mupdf.desktop;foxitreader.desktop;
+video/x-matroska=mpv.desktop;
+image/png=sxiv.desktop;
