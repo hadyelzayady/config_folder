@@ -2,7 +2,6 @@ let g:ale_completion_autoimport = 1
 let g:ale_linters_explicit = 1
 let g:ale_linters = {
             \'python': ['autopep8','pyright','flake8'],
-            \'cpp': ['clang'],
             \'rust': ['rustc','rust-analyzer'],
             \}
 
@@ -17,6 +16,7 @@ let g:ale_fixers = {
 \   'rust':['rustfmt'],
 \   'cs':['uncrustify'],
 \   'go':['goimports'],
+\   'cpp':['astyle'],
 \}
 
 let g:ale_sign_error = '>>'

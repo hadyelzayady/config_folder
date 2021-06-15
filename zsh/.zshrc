@@ -93,6 +93,11 @@ compctl -K _dotnet_zsh_complete dotnet
 
 # source /home/geeker/zsh-git-prompt/zshrc.sh
 
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/geeker/.sdkman"
+[[ -s "/home/geeker/.sdkman/bin/sdkman-init.sh" ]] && source "/home/geeker/.sdkman/bin/sdkman-init.sh"
+
+
 # PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$(git_super_status)$%b '
 # PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 # PROMPT='%B%m%~%b$(git_super_status)$%b '

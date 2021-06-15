@@ -1,0 +1,19 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json",
+  "configurations": {
+    "LaunchSingleFile": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "MIMode": "gdb"
+      },
+      "runCommand": [
+        "g++",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ]
+    }
+  }
+}

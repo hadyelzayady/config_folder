@@ -30,6 +30,7 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <silent> <C-s> :w<CR>
+nnoremap <silent> <C-S> :wa<CR>
 " Alternate way to quit
 nnoremap <silent> <C-Q> :wq!<CR>
 " Use control-c instead of escape
