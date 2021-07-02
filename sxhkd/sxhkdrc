@@ -9,7 +9,7 @@ XF86Audio{Raise,Lower}Volume
 	amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks && dunstify -a "media-controls" -r 1 "$(pamixer --get-volume) $( [[ $(pamixer --get-mute) == "false" ]] && echo  🔊 || echo 🔇)"
 
 XF86MonBrightness{Down,Up}
-	sudo xbacklight -{dec,inc} 3 && dunstify -r 2 "$(xbacklight -get) 🌞"
+	sudo xbacklight -{dec,inc} 3 && dunstify -a "media-controls" -r 2 "$(xbacklight -get) 🌞"
 
 super + {n,ctrl+n}
 	{rofi,sudo -E rofi} -show combi -modi combi,window,run,keys,ssh

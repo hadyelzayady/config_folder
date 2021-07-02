@@ -91,6 +91,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   "fern explorer with nerd icons plugins
   Plug 'lambdalisue/fern.vim'
+  Plug 'yuki-yano/fern-preview.vim'
   Plug 'lambdalisue/nerdfont.vim'
   Plug 'lambdalisue/fern-renderer-nerdfont.vim'
   Plug 'christoomey/vim-tmux-navigator'
