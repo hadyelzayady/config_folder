@@ -98,3 +98,6 @@ GIMP/
 googledocs-nativefier-*
 
 JetBrains/
+
+clight-gui/clight-gui.conf
+clight.conf
