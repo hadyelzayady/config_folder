@@ -10,6 +10,16 @@
         "stopAtEntry": true,
         "cwd": "${workspaceRoot}"
       }
+    },
+    "launch solution - netcoredbg": {
+      "adapter": "netcoredbg",
+      "configuration": {
+        "request": "launch",
+        "program": "${projectWebFolder}/bin/Debug/net5.0/${workspaceFolderBasename}.dll",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}"
+      }
     }
   }
 }

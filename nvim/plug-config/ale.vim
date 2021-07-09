@@ -3,6 +3,7 @@ let g:ale_linters_explicit = 1
 let g:ale_linters = {
             \'python': ['autopep8','pyright','flake8'],
             \'rust': ['rustc','rust-analyzer'],
+            \'cs': ['OmniSharp'],
             \}
 
 " Set this variable to 1 to fix files when you save them.

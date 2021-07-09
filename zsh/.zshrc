@@ -70,7 +70,7 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 
 # zsh parameter completion for the dotnet CLI
-
+export MSBuildSDKsPath=$( echo /usr/share/dotnet/sdk/5.*/Sdks );
 _dotnet_zsh_complete()
 {
   local completions=("$(dotnet complete "$words")")

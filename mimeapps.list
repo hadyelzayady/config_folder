@@ -16,6 +16,7 @@ application/ppdf=FoxitReader.desktop
 x-scheme-handler/kite=kite-copilot.desktop
 x-scheme-handler/mailspring=Mailspring.desktop
 application/x-extension-burp=install4j_smcrq9-BurpSuitePro.desktop
+x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;

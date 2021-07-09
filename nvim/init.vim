@@ -33,6 +33,7 @@
  source $HOME/.config/nvim/plug-config/sneak.vim
  " use coc for intellisense(code completion, goto def,...)
  source $HOME/.config/nvim/plug-config/coc.vim
+ source $HOME/.config/nvim/plug-config/omnisharp.vim
 " source $HOME/.config/nvim/plug-config/neomake.vim
  " use ale for code linting(code analysis like show warnings and errors)
  source $HOME/.config/nvim/plug-config/ale.vim
