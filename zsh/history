@@ -1,0 +1,270 @@
+e
+z /home/geeker/silverkey
+e .
+z /home/geeker/projects/database-engine
+e .
+e
+fdgit
+e 
+e
+e /etc/optimus-manager/optimus-manager.conf
+e
+vim NPC-2021-07-15_14-47-44.bak
+file NPC-2021-07-15_14-47-44.bak
+git fetch master
+git fetch maain
+git fetch origin/master
+cd NPC.Migration
+dotnet run --up
+dotnet build
+dotnet run --up
+dotnet run --down 0
+dotnet run --up
+dotnet run --up
+e .xprofile
+e temp.cpp
+e temp.cpp
+cd "/home/geeker/silverkey/npc"
+git merge origin/master
+pulseaudio
+pulseaudio -checj
+pulseaudio -check
+pulseaudio --check
+pulsemixer
+cd "/home/geeker/silverkey/npc"
+git merge origin/master
+cd "/home/geeker/silverkey/npc"
+git merge origin/master
+p -S gnome-sound-recorder
+gnome-sound-recorder
+amixer sset "Mic" 0%
+amixer
+z npc
+git status
+git push
+git statuys
+git status
+dunstify Hel
+e
+cd "/home/geeker/silverkey/npc"
+git merge origin/master
+git add .
+git commit -m "some"
+git push
+git push --set-upstream origin hady
+cd "/home/geeker/silverkey/npc"
+git merge origin/master
+git merge origin/master
+e
+e .config/alacritty/alacritty.yml
+bg
+fg
+e `which thm_connect`
+e `which thm_connect`
+scp /usr/share/terminfo/a/alacritty root@silverkeytechlinux:/usr/share/terminfo/a/\
+
+scp /usr/share/terminfo/a/alacritty root@silverkeytechlinux:/usr/share/terminfo/a/alacritty
+scp /usr/share/terminfo/a/alacritty root@silverkeytechlinux:/usr/share/terminfo/a/\
+
+update
+update
+e `which thm_connect `
+e `which thm_mount `
+sudo sshfs
+p -S sshfs
+e
+fg
+arecord -l
+e /etc/pulse/default.pa
+bg
+fg
+pulseaudio -k ; pulseaudio -D
+alsamixer
+alsamixer
+update
+update
+sudo visudo
+sudo visudo
+sudo visudo
+sudo visudo
+e /etc/sudoers
+sudo nvim /etc/sudoers
+sudo nvim /etc/sudoers.d
+sudoedit
+sudoedit -T 30
+sudoedit -h geeker -T 30
+sudo visudo
+sudoedit -h geeker -T 30
+sudo visudo
+e .config/alacritty/alacritty.yml
+e tm.md
+e tm.md
+cvim
+cvim tm.md
+e tm.md
+e
+e tm.md
+e tm.md
+e tm.md
+rm tm.md
+e
+calcurse-caldav
+man calcurse
+calcurse-caldav --help
+calcurse-caldav --authcode "4/0AX4XfWhZl3Gpo_SEJxvQnss8KhPlVWMt-0awuPrETUCLj3S8XjBnlW-YJ1GquxYJO8Kpsg"
+yay -S teams
+pass edit live.com
+e
+update
+sudo visudo
+sudo visudo
+update
+cd "/home/geeker/silverkey/npc"
+git merge master
+z /home/geeker/.config/mpv/scripts
+cd
+z /home/geeker/.local/bin/scripts
+ls
+e dmenurecord
+e video
+cd
+dmenurecord
+ranger
+ls
+./screencast.mkv
+ranger
+alsamixer
+ranger
+alsamixer
+ranger
+alsamixer
+ranger
+alsamixer
+ranger
+alsamixer
+z npc
+e .
+fg
+fg
+e
+fg
+cd
+e
+e
+fg
+e
+e
+z geeker.io
+ls
+cd cdn
+ls
+e Dockerfile
+e
+e
+e Dockerfile
+cd
+e temp.cpp
+z /home/geeker/projects/database-engine
+ls
+ll
+e .ccls
+e main.cpp
+e
+e main.cpp
+e main.cpp
+e main.cpp
+e
+e main.cpp
+e main.cpp
+e main.cpp
+e main.cpp
+teams
+pkill teams
+e
+e .config/coc/ultisnips/c.snippets
+e .ccls
+e
+e `which record`
+e `which dmenurecord `
+e
+e tem4
+e
+e temp
+e temp2
+e temp.cpp
+e temp2.cpp
+ls
+e temp2
+z npc
+git status
+git pull
+git git push
+git push
+git status
+e .
+e .
+e .
+e .
+e .
+e .
+e .
+e .
+e .config/alacritty/alacritty.yml
+powersave
+powersave on
+update
+lvim
+lvim
+lvim silverkey/npc
+cd .config/lvim
+ls
+e config.lua
+lvim silverkey/npc
+lvim silverkey/npc
+cd .config/lvim
+lvim --headless +'lua require("utils").generate_settings()' +qa && sort -o lv-settings.lua{,}
+lvim --headless +'lua require("utils").generate_settings()' +qa && sort -o lv-settings.lua{,}
+cd ~/.local/share/lunarvim/lvim
+lvim --headless +'lua require("utils").generate_settings()' +qa && sort -o lv-settings.lua{,}
+ls
+e init.lua
+e lv-settings.lua
+e README.md
+e init.lua
+cd
+e
+e
+e
+e
+e
+e --veriosn
+e --version
+LVBRANCH=rolling bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/rolling/utils/installer/install.sh)
+yay -S nerd-fonts-complete
+update
+e
+e
+e cpp/temp.cpp
+e cpp/temp.cpp
+e cpp/temp.cpp
+e cpp/temp.cpp
+e cpp/temp.cpp
+e cpp/temp.cpp
+e cpp/temp.cpp
+e
+e cpp/temp.cpp
+e
+z npc
+e .
+cd
+e
+e
+z npc
+lvim .
+ls
+ls
+cls
+z npc
+lvim .
+e
+e

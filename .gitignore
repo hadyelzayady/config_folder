@@ -107,3 +107,8 @@ Code/CachedExtensionVSIXs
 Code/Code Cache
 Code
 pgadmin/pgadmin4.conf
+Microsoft/
+
+autostart/teams.desktop
+lvim/plugin/packer_compiled.lua
+teams/
