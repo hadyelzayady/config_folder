@@ -32,8 +32,9 @@
  source $HOME/.config/nvim/plug-config/quickscope.vim
  source $HOME/.config/nvim/plug-config/sneak.vim
  " use coc for intellisense(code completion, goto def,...)
- source $HOME/.config/nvim/plug-config/coc.vim
+ " source $HOME/.config/nvim/plug-config/coc.vim
  source $HOME/.config/nvim/plug-config/omnisharp.vim
+ luafile $HOME/.config/nvim/plug-config/nvim-lspconfig.lua
 " source $HOME/.config/nvim/plug-config/neomake.vim
  " use ale for code linting(code analysis like show warnings and errors)
  source $HOME/.config/nvim/plug-config/ale.vim
@@ -48,3 +49,4 @@
  source $HOME/.config/nvim/plug-config/easymotion.vim
  source $HOME/.config/nvim/plug-config/vimspector.vim
  source $HOME/.config/nvim/plug-config/vim-markdown.vim
+ source $HOME/.config/nvim/plug-config/vim-cpp-enhanced-highlight.vim

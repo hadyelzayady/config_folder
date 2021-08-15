@@ -11,6 +11,7 @@ let g:coc_global_extensions = [
     \ 'coc-pyright',
     \ 'coc-rls',
     \ 'coc-go',
+    \ 'coc-omnisharp',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.

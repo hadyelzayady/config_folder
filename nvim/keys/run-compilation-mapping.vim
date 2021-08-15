@@ -10,7 +10,7 @@ endfunction
 " autocmd filetype rust nnoremap <F10> :call Run('cargo run')<CR>
 "
 " " cpp
-" autocmd filetype cpp nnoremap <F10> :call Run('g++ -g % -o %:r && ./%:r')<CR>
+autocmd filetype cpp nnoremap <F7> :call Run('g++ -g % -o %:r && ./%:r')<CR>
 "
 " " bash
 " autocmd filetype sh nnoremap <F10> :call Run('./%')<CR>

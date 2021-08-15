@@ -25,7 +25,6 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "go",
-    "markdown",
     "javascript",
     "graphql",
     "html",
@@ -70,6 +69,11 @@
           "directory": "/tmp/ccls"
         }
       }
+    },
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": ["dockerfile"],
+      "args": ["--stdio"]
     }
   }
 

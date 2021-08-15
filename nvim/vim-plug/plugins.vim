@@ -46,12 +46,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Themes
   " Plug 'christianchiarulli/nvcode.vim'
   Plug 'joshdick/onedark.vim'
+  Plug 'tomasiser/vim-code-dark'
   Plug 'bluz71/vim-moonfly-colors'
   " Plug 'kaicataldo/material.vim'
   " Plug 'NLKNguyen/papercolor-theme'
   " Plug 'tomasiser/vim-code-dark'
   " Intellisense, completion
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " lint and fix, error checking
   Plug 'dense-analysis/ale'
   " Status Line
@@ -88,7 +89,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'jbgutierrez/vim-better-comments'
   " Echo doc (like function signature in vim echo area)
   Plug 'Shougo/echodoc.vim'
-
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
   "fern explorer with nerd icons plugins
   Plug 'lambdalisue/fern.vim'
   Plug 'yuki-yano/fern-preview.vim'
@@ -106,10 +107,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Jump to any visible line in the buffer by using letters instead of numbers.
   " replaced with easymotion-plugin goto lineletters
   " Plug 'skamsie/vim-lineletters'
-
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'kabouzeid/nvim-lspinstall'
   " plugins for languages
   " Plug 'rust-lang/rust.vim'
-
+  Plug 'jlcrochet/vim-razor'
   " interact with tmux from vim
   Plug 'preservim/vimux'
 
@@ -134,6 +136,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " c#
   Plug 'OmniSharp/omnisharp-vim'
   " Plug 'embear/vim-uncrustify'
+
+  " cpp
+  Plug 'octol/vim-cpp-enhanced-highlight'
   call plug#end()
 
 " Automatically install missing plugins on startup
