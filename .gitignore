@@ -112,3 +112,5 @@ Microsoft/
 autostart/teams.desktop
 lvim/plugin/packer_compiled.lua
 teams/
+
+zsh/history
