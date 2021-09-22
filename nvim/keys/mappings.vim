@@ -19,9 +19,6 @@ map <C-_> <plug>NERDCommenterToggle
 
 " create file under the cursor
 map <silent> cf :e <cfile><cr>
-" Easy CAPS
-" inoremap <c-u> <ESC>viwUi
-" nnoremap <c-u> viwU<Esc>
 
 " TAB in normal mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
@@ -29,14 +26,16 @@ nnoremap <silent> <TAB> :bnext<CR>
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " Alternate way to save
-nnoremap <silent> <C-s> :w<CR>
+noremap <silent> <C-s> :w<CR>
 nnoremap <silent> <C-S> :wa<CR>
+
 " Alternate way to quit
 nnoremap <silent> <C-Q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <silent> <C-c> <Esc>
-" <TAB>: completion.
-inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 
 " Better window navigation
@@ -44,16 +43,7 @@ nnoremap <M-h> <C-w>h
 nnoremap <M-j> <C-w>j
 nnoremap <M-k> <C-w>k
 nnoremap <M-l> <C-w>l
-" use window navigation also in terminal
-" tnoremap <C-h> <C-\><C-N><C-w>h
-" tnoremap <C-j> <C-\><C-N><C-w>j
-" tnoremap <C-k> <C-\><C-N><C-w>k
-" tnoremap <C-l> <C-\><C-N><C-w>l
-" inoremap <C-h> <C-\><C-N><C-w>h
-" inoremap <C-j> <C-\><C-N><C-w>j
-" inoremap <C-k> <C-\><C-N><C-w>k
-" inoremap <C-l> <C-\><C-N><C-w>l
-"
+
 " Use alt + ctrl + hjkl to resize windows
 nnoremap <silent> <M-C-j>    :resize -2<CR>
 nnoremap <silent> <M-C-k>    :resize +2<CR>
@@ -63,27 +53,14 @@ nnoremap <silent> <M-C-l>    :vertical resize +2<CR>
 "enable dot command (repeat last action) to be executed in visual mode
 vnoremap . :norm.<CR>
 
-" **********************  Vimux ********************
-" Run the current file with rspec
-map <Leader>rb :call VimuxRunCommand("clear; python " . bufname("%"))<CR>
-
-" Prompt for a command to run
-map <Leader>rp :VimuxPromptCommand<CR>
-
-" Run last command executed by VimuxRunCommand
-map <Leader>rl :VimuxRunLastCommand<CR>
-
-" Inspect runner pane
-map <Leader>ri :VimuxInspectRunner<CR>
-
-" Close vim tmux runner opened by VimuxRunCommand
-map <Leader>rq :VimuxCloseRunner<CR>
-
-" Interrupt any command running in the runner pane
-map <Leader>rx :VimuxInterruptRunner<CR>
-
-" Zoom the runner pane (use <bind-key> z to restore runner pane)
-map <Leader>rz :call VimuxZoomRunner()<CR>
-
-" Clear the terminal screen of the runner pane.
-map <Leader>r<C-l> :VimuxClearTerminalScreen<CR>
+" Search for selected text, forwards or backwards.
+vnoremap <silent> * :<C-U>
+  \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+  \gvy/<C-R>=&ic?'\c':'\C'<CR><C-R><C-R>=substitute(
+  \escape(@", '/\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+  \gVzv:call setreg('"', old_reg, old_regtype)<CR>
+vnoremap <silent> # :<C-U>
+  \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+  \gvy?<C-R>=&ic?'\c':'\C'<CR><C-R><C-R>=substitute(
+  \escape(@", '?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+  \gVzv:call setreg('"', old_reg, old_regtype)<CR>

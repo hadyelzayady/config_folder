@@ -9,7 +9,7 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.config/zsh/history
-
+export DEVOPS_PATH="$HOME/projects/silverkey/dev-ops"
 # Load aliases and shortcuts if existent.
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source $HOME/.config/aliasrc

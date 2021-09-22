@@ -1,0 +1,60 @@
+{
+	"separator": " | ",
+	"actions":
+	[
+		{
+			"prefix": "Mem: ",
+			"updateSignal": "37",
+			"command": "#Memory",
+			"suffix": "%",
+			"format": "%.2f",
+			"timer": "2s"
+		},
+		{
+			"prefix": "CPU: ",
+			"updateSignal": "38",
+			"command": "#Cpu",
+			"suffix": "%",
+			"format": "%.2f",
+			"timer": "2s"
+		},
+		{
+			"prefix": "",
+			"updateSignal": "42",
+			"command": "internet",
+			"timer": "1s"
+		},
+
+		{
+			"prefix": "",
+			"updateSignal": "41",
+			"command": "battery",
+			"timer": "60s"
+		},
+		{
+			"prefix": "",
+			"updateSignal": "36",
+			"command": "volume",
+			"timer": "1s"
+		},
+		{
+			"updateSignal": "35",
+			"command": "clock",
+			"timer": "1s"
+		},
+		{
+			"prefix": "",
+			"updateSignal": "40",
+			"command": "lang",
+			"timer": "1s"
+		},
+		{
+			"prefix": "",
+			"updateSignal": "39",
+			"command": "notifications",
+			"timer": "1s"
+		}
+
+	]
+
+}

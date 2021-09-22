@@ -38,3 +38,5 @@ text/plain=visual-studio-code.desktop;nvim.desktop;vim.desktop;wine-extension-tx
 application/pdf=mupdf.desktop;foxitreader.desktop;
 video/x-matroska=mpv.desktop;
 image/png=sxiv.desktop;
+application/octet-stream=sxiv.desktop;
+text/x-c++src=visual-studio-code.desktop;

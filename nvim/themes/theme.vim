@@ -1,5 +1,5 @@
 syntax on
-colorscheme moonfly
+colorscheme monokai
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))

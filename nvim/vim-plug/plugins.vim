@@ -2,7 +2,6 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
@@ -13,7 +12,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'glts/vim-radical'
   " Files (rename file, ....)
   Plug 'tpope/vim-eunuch'
-  " Repeat stuff
+  " Repeat stuff even plugins actions like surround word with parenthesis
   Plug 'tpope/vim-repeat'
   " Surround
   Plug 'tpope/vim-surround'
@@ -21,56 +20,44 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'preservim/nerdcommenter'
   " Have the file system follow you around (change the cwd to the the directory of of the current opened file)
   Plug 'airblade/vim-rooter'
-  " auto set indent settings (replaced by vim-polyglot)
-  " Plug 'tpope/vim-sleuth'
-
-  " list of all available completions for its single argument
-  Plug 'rantasub/vim-bash-completion'
   " " Text Navigation
   " Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
-  Plug 'easymotion/vim-easymotion'
+
   " show color or color value in css for example
-  Plug 'norcalli/nvim-colorizer.lua'
-  " Plug 'junegunn/rainbow_parentheses.vim'
+  Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
   " colored parant.., braces,tags,... alternative to junegunn/rainbow_parentheses
   Plug 'luochen1990/rainbow'
   " Better Syntax Support
   Plug 'sheerun/vim-polyglot'
-  " Cool Icons
-  " Plug 'ryanoasis/vim-devicons'
   " Auto pairs for '(' '[' '{'
   Plug 'jiangmiao/auto-pairs'
   " Closetags
   Plug 'alvan/vim-closetag'
   " Themes
-  " Plug 'christianchiarulli/nvcode.vim'
-  Plug 'joshdick/onedark.vim'
-  Plug 'tomasiser/vim-code-dark'
   Plug 'bluz71/vim-moonfly-colors'
-  " Plug 'kaicataldo/material.vim'
-  " Plug 'NLKNguyen/papercolor-theme'
-  " Plug 'tomasiser/vim-code-dark'
-  " Intellisense, completion
-  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " lint and fix, error checking
   Plug 'dense-analysis/ale'
   " Status Line
   Plug 'vim-airline/vim-airline'
-  " Plug 'vim-airline/vim-airline-themes'
-  " Ranger
-  " Plug 'francoiscabrol/ranger.vim'
-  " Plug 'rbgrouleff/bclose.vim'
+  " show buffer and tabs better than tabline in airline
+  Plug 'akinsho/bufferline.nvim'
+  Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
+
   " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-  " Git
+  """""""""""""""""""" Git """"""""""""""""""""
+  " view changed lines in sign colum
   Plug 'airblade/vim-gitgutter'
+  " git functions from vim async, commit,push,pull,...
   Plug 'lambdalisue/gina.vim'
+
+  " right now both of following packages are used to browse commits, but gina
+  " is used for all other git operations
   Plug 'tpope/vim-fugitive'
   Plug 'junegunn/gv.vim'
-  " Plug 'tpope/vim-rhubarb'
-  " Plug 'junegunn/gv.vim'
+
   " Terminal
   Plug 'voldikss/vim-floaterm'
   " Start Screen
@@ -81,43 +68,22 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'liuchengxu/vim-which-key'
   " Zen mode
   Plug 'junegunn/goyo.vim'
-  " another linter like ale
-  " Plug 'neomake/neomake'
-  " Snippets TODO fix TAB hijack
-  " Plug 'SirVer/ultisnips'
-  " Better Comments
-  " Plug 'jbgutierrez/vim-better-comments'
-  " Echo doc (like function signature in vim echo area)
+
+  " Displays function signatures from completions in the command line
   Plug 'Shougo/echodoc.vim'
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
   "fern explorer with nerd icons plugins
   Plug 'lambdalisue/fern.vim'
   Plug 'yuki-yano/fern-preview.vim'
   Plug 'lambdalisue/nerdfont.vim'
   Plug 'lambdalisue/fern-renderer-nerdfont.vim'
-  Plug 'christoomey/vim-tmux-navigator'
   " show git status in fern
   Plug 'lambdalisue/fern-git-status.vim'
   " set fern as default explorer instead of netrw
   Plug 'lambdalisue/fern-hijack.vim'
 
-  "syntax hilight for jrnl file
-  " Plug 'mode89/vim-jrnl-syntax'
-
-  " Jump to any visible line in the buffer by using letters instead of numbers.
-  " replaced with easymotion-plugin goto lineletters
-  " Plug 'skamsie/vim-lineletters'
-  Plug 'neovim/nvim-lspconfig'
-  Plug 'kabouzeid/nvim-lspinstall'
-  " plugins for languages
-  " Plug 'rust-lang/rust.vim'
-  Plug 'jlcrochet/vim-razor'
-  " interact with tmux from vim
-  Plug 'preservim/vimux'
-
-  " to show indentation with vertical bar (useful when using spaces with
-  " expand tab so after each tab(exapned to spaces) )
-  Plug 'Yggdroot/indentLine'
+  " switch between two vim in multiple tmux panes
+  Plug 'christoomey/vim-tmux-navigator'
 
   " auto make file executable based on filetype like python and bash
   Plug 'vitalk/vim-shebang'
@@ -125,24 +91,25 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " debugging plugin
   Plug 'puremourning/vimspector'
 
+  " nvim LSP
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'kabouzeid/nvim-lspinstall'
+  """""""""""""""""""""""""""""" for autocompletion
+  Plug 'nvim-lua/completion-nvim'
+
+  """""""""""""""""""""""""""""" Language Specific Plugins """"""""""""""""""""""""""""""
+  Plug 'rust-lang/rust.vim'
+
   " View markdown on browser with sync with nvim
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
-  " markdown
-  Plug 'godlygeek/tabular'
-  Plug 'plasticboy/vim-markdown'
-
-
   " c#
-  Plug 'OmniSharp/omnisharp-vim'
-  " Plug 'embear/vim-uncrustify'
+  Plug 'jlcrochet/vim-razor'
 
   " cpp
   Plug 'octol/vim-cpp-enhanced-highlight'
-  call plug#end()
 
-" Automatically install missing plugins on startup
-autocmd VimEnter *
-  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q
-  \| endif
+  """""""""""""""""""""""""""""" Themes """"""""""""""""""""""""""""""
+  Plug 'crusoexia/vim-monokai'
+
+call plug#end()
