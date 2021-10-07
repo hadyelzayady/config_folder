@@ -18,6 +18,7 @@ x-scheme-handler/mailspring=Mailspring.desktop
 application/x-extension-burp=install4j_smcrq9-BurpSuitePro.desktop
 x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
 x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-YZQVA1.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -40,3 +41,5 @@ video/x-matroska=mpv.desktop;
 image/png=sxiv.desktop;
 application/octet-stream=sxiv.desktop;
 text/x-c++src=visual-studio-code.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-YZQVA1.desktop;
+application/sql=nvim.desktop;

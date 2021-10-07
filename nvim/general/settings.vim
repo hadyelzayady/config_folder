@@ -18,6 +18,8 @@ set tabstop=4                           " a tab will show distance like 4 spaces
 set shiftwidth=4                        " how much >> (keymap) will shift the line
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set smartindent                         " Makes indenting smart
+set smartcase
+set ignorecase
 set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
 set number relativenumber                             " Line numbers

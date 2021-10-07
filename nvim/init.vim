@@ -35,7 +35,7 @@ source $HOME/.config/nvim/plug-config/fern.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 
 " text navigation by two chars vertical and horizontal
-" source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
 " for line navigation (horizontal)
 source $HOME/.config/nvim/plug-config/quickscope.vim
 

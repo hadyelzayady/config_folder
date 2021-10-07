@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Have the file system follow you around (change the cwd to the the directory of of the current opened file)
   Plug 'airblade/vim-rooter'
   " " Text Navigation
-  " Plug 'justinmk/vim-sneak'
+  Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
 
   " show color or color value in css for example
