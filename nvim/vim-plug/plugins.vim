@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " " Text Navigation
   Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
+  " show indentation
+  Plug 'Yggdroot/indentLine'
 
   " show color or color value in css for example
   Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }

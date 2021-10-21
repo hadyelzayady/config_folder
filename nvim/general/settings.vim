@@ -36,6 +36,9 @@ set isfname=@,48-57,/,.,-,_,+,#,$,%,~,= " define how gf will detect filename, th
 set guifont=Hack\ Nerd\ Font
 set autochdir                           " Your working directory will always be the same as your working directory
 set list
+" show spaces, tabs
+" format eol:$,tab:>-,trail:~,extends:>,precedes:<
+" set listchars=tab:>-,space:-
 
 " Save file as sudo on files that require root permission
 cmap w!! w !sudo tee > /dev/null %

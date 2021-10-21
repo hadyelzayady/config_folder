@@ -4,6 +4,7 @@ let g:ale_linters = {
             \'python': ['autopep8','pyright','flake8'],
             \'rust': ['rustc','rust-analyzer'],
             \'cs': ['OmniSharp'],
+            \'yaml': ['yamllint'],
             \}
 
 " Set this variable to 1 to fix files when you save them.
@@ -18,6 +19,7 @@ let g:ale_fixers = {
 \   'cs':['uncrustify'],
 \   'go':['goimports'],
 \   'cpp':['astyle'],
+\   'yaml':['yamlfix'],
 \}
 
 let g:ale_sign_error = '>>'

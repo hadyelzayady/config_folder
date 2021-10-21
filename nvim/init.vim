@@ -65,3 +65,5 @@ source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
 
 " debugger UI
 source $HOME/.config/nvim/plug-config/vimspector.vim
+
+source $HOME/.config/nvim/plug-config/indentline.vim
