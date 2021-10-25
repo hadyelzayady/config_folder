@@ -1,5 +1,5 @@
 " enable tabline
-let g:airline#extensions#tabline#enabled = 0
+let g:airline#extensions#tabline#enabled = 1
 
 " " Disable tabline close button
 let g:airline#extensions#tabline#show_close_button = 0
